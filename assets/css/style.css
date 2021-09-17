@@ -34,7 +34,7 @@ h1, h2 {
     font-size: 300%;
     float: left;
     text-align: center;
-    padding-top: 5%;
+    padding: 5% 0;
 }
 
 #navigation {
@@ -84,6 +84,7 @@ h1, h2 {
 
 #position {
     position: relative;
+    padding: 1% 0;
 }
 
 #signup {
@@ -140,15 +141,26 @@ h1, h2 {
     text-transform: none;
     text-align: right;
 }
+
+#quote {
+    text-align: center;
+    margin: 0 auto;
+    padding: 1.5% 0;
+}
+
+#quote h2 {
+    font-family: Mate SC, sans-serif;
+    font-size: 200%;
+}
 /* Media Queries */
 
-/* For larger to medium screens from size 1300px wide and down */
+/* For larger to medium screens from size 1340px wide and down */
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1340px) {
     #navigation {
         display: inline;
         text-align: center;
-        font-size: 150%;
+        font-size: 200%;
     }
     #navigation_style {
         height: 30%;
@@ -179,9 +191,13 @@ h1, h2 {
     #cover_text h2 {
         padding: 1%;
     }
+    #quote h2 {
+        font-size: 130%;
+        font-weight: bold;
+    }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 960px) {
     #navigation {
         display: inline;
         text-align: center;
