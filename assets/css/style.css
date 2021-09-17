@@ -55,11 +55,17 @@ h1, h2 {
 }
 
 #navigation a:hover {
-    border-bottom: 1px solid #080808;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 5%;
+    background-color: white;
 }
 
 .active {
-    border-bottom: 1px solid #080808;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 5%;
+    background-color: white;
 }
 
 #navigation_style {
@@ -155,7 +161,7 @@ h1, h2 {
 
 /* About Us */
 
-#background_color_about {
+.background_color {
     height: 600px;
     width: 100%;
     background-color: #C7BF94;
@@ -267,6 +273,57 @@ h1, h2 {
     background-color: #ffe9ec;
 }
 
+/* Selection of cakes strip */
+
+#background_color_selection {
+    background-color: #C7BF94;
+    height: 600px;
+    width: 100%;
+}
+
+.border {
+    height: 500px;
+    width: 500px;
+    box-sizing: border-box;
+    float: left;
+    overflow: hidden;
+    margin: 3% 3.5%;
+    display: flex;
+    border: 10px solid #ddd;
+    border-radius: 4px;
+    position: relative;
+}
+
+  .container {
+      width: 500px;
+      height: 500px;
+  }
+
+#selection1 {
+    background: url('../images/selection1.jpeg') no-repeat center center;
+    height: 100%;
+    background-size: cover;
+    margin: auto;
+    padding: 0;
+}
+
+#selection2 {
+    background: url('../images/selection2.jpeg') no-repeat center center;
+    height: 100%;
+    background-size: cover;
+    margin: auto;
+    padding: 0;
+}
+
+#selection3 {
+    background: url('../images/selection3.jpeg') no-repeat center center;
+    height: 100%;
+    background-size: cover;
+    margin: auto;
+    padding: 0;
+}
+
+  
 /* Media Queries */
 
 /* For larger to medium screens from size 1340px wide and down */
