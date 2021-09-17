@@ -26,5 +26,38 @@ h1, h2 {
 .center {
     display: flex;
     width: 100%;
+    height: 100px;
     justify-content: center;
+}
+
+#title {
+    font-size: 300%;
+    float: left;
+    text-align: center;
+    padding-top: 5%;
+}
+
+#navigation {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+#navigation li {
+    float: right;
+    list-style-type: none;
+    letter-spacing: 2px;
+    padding: 3% 20px;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navigation a:hover {
+    border-bottom: 1px solid #080808;
+}
+
+.active {
+    border-bottom: 1px solid #080808;
 }
