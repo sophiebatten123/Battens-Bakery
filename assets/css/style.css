@@ -95,3 +95,77 @@ h1, h2 {
 #signup a {
     text-decoration: none;
 }
+
+#signup_responsive {
+    display: none;
+}
+
+/* Media Queries */
+
+/* For larger to medium screens from size 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    #navigation {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        font-size: 200%;
+    }
+    #navigation_style {
+        height: 30%;
+        width: 50%;
+        margin: 0 auto;
+    }
+    #signup {
+        top: 100%;
+        right: 5%;
+    }
+    #signup h2 {
+        letter-spacing: 2px;
+    }
+    #media_platforms {
+        top: 100%;
+        left: 3%;
+    }
+
+    #media_platforms i {
+        letter-spacing: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #navigation {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        font-size: 150%;
+    }
+    #navigation_style {
+        height: 30%;
+        width: 50%;
+        margin: 0 auto;
+    }
+    #media_platforms {
+        left: 10%;
+        top: 100%;
+    }
+    #media_platforms i {
+        font-size: 150%;
+        padding-top: 20px;
+    }
+    #media_platforms li {
+        display: flex;
+    }
+    #signup {
+        display: none;
+    }
+    #signup_responsive {
+        display: block;
+        font-size: 150%;
+        color: #080808;
+        text-decoration: none;
+        position: absolute;
+        top: 100%;
+        right: 10%;
+    }
+}
