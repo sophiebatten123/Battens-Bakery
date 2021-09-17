@@ -61,3 +61,27 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #080808;
 }
+
+#navigation_style {
+    background-color: #C7BF94;
+}
+
+#media_platforms {
+    position: absolute;
+    left: 8%;
+    top: 40%;
+}
+
+#media_platforms > li {
+    display: inline-block;
+}
+
+#media_platforms i {
+    font-size: 200%;
+    color: #080808;
+    letter-spacing: 20px;
+}
+
+#position {
+    position: relative;
+}
