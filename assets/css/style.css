@@ -22,3 +22,9 @@ h1, h2 {
 }
 
 /* Styling applied to the Header and Navigation */
+
+.center {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
