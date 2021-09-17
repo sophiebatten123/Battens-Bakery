@@ -279,24 +279,24 @@ h1, h2 {
     background-color: #C7BF94;
     height: 600px;
     width: 100%;
-}
-
-.border {
-    height: 500px;
-    width: 500px;
-    box-sizing: border-box;
-    float: left;
-    overflow: hidden;
-    margin: 3% 3.5%;
-    display: flex;
-    border: 10px solid #ddd;
-    border-radius: 4px;
     position: relative;
 }
 
+.border {
+    height: 400px;
+    width: 400px;
+    box-sizing: border-box;
+    float: left;
+    overflow: hidden;
+    margin: 3% 6%;
+    display: flex;
+    border: 10px solid #ddd;
+    border-radius: 4px;
+}
+
   .container {
-      width: 500px;
-      height: 500px;
+      width: 400px;
+      height: 400px;
   }
 
 #selection1 {
@@ -347,8 +347,118 @@ h1, h2 {
     padding: 0;
 }
 
-  
 /* Media Queries */
+
+/* For large screens from size 1900px and down */
+
+@media screen and (max-width: 1900px) {
+    .border {
+        height: 400px;
+        width: 400px;
+        margin: 3% 5%;
+    }
+}
+
+@media screen and (max-width: 1720px) {
+    .border {
+        height: 400px;
+        width: 400px;
+        margin: 3% 4%;
+    }
+}
+
+@media screen and (max-width: 1580px) {
+    .border {
+        height: 400px;
+        width: 400px;
+        margin: 3% 3%;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .border {
+        height: 350px;
+        width: 350px;
+        margin: 3% 3.5%;
+    }
+     #background_color_selection {
+        height: 500px;
+     }
+
+     .container {
+         height: 350px;
+         width: 350px;
+     }
+}
+
+@media screen and (max-width: 1400px) {
+    .border {
+        height: 310px;
+        width: 310px;
+        margin: 3% 3%;
+    }
+    #background_color_selection {
+        height: 450px;
+    }
+    .container {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .border {
+        height: 280px;
+        width: 280px;
+        margin: 3% 3%;
+    }
+    .container {
+        height: 280px;
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .border {
+        height: 240px;
+        width: 240px;
+        margin: 3% 3%;
+    }
+    #background_color_selection {
+        height: 400px;
+    }
+    .container {
+        height: 240px;
+        width: 240px;
+    }
+}
+
+@media screen and (max-width: 916px) {
+    .border {
+        height: 230px;
+        width: 230px;
+        margin: 3% 3%;
+    }
+    .container {
+        height: 220px;
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 843px) {
+    .border {
+        height: 200px;
+        width: 200px;
+        margin: 3% 3%;
+    }
+    #background_color_selection {
+        height: 300px;
+    }
+    .container {
+        height: 190px;
+        width: 190px;
+    }
+}
 
 /* For larger to medium screens from size 1340px wide and down */
 
