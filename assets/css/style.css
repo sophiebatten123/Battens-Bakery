@@ -323,6 +323,30 @@ h1, h2 {
     padding: 0;
 }
 
+#selection4 {
+    background: url('../images/selection4.jpeg') no-repeat center center;
+    height: 100%;
+    background-size: cover;
+    margin: auto;
+    padding: 0;
+}
+
+#selection5 {
+    background: url('../images/selection5.jpeg') no-repeat center center;
+    height: 100%;
+    background-size: cover;
+    margin: auto;
+    padding: 0;
+}
+
+#selection6 {
+    background: url('../images/selection6.jpeg') no-repeat center center;
+    height: 100%;
+    background-size: cover;
+    margin: auto;
+    padding: 0;
+}
+
   
 /* Media Queries */
 
