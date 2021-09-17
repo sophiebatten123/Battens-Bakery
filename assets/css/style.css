@@ -133,7 +133,7 @@ h1, h2 {
     height: 25%;
     
     clip-path: polygon(100% 0,100% 50%,100% 100%,0% 100%,14% 50%,0% 0%);
-    background-color: rgba(199 , 191 , 148 , .7);
+    background-color: rgba(221 , 221 , 221 , .7);
 
     position: absolute;
     top: 60%;
@@ -178,7 +178,7 @@ h1, h2 {
     }
 
 #border {
-    height: 60%;
+    height: 70%;
     width: 20%;
     border: 5px solid #808000;
     background-color: white;
@@ -260,7 +260,7 @@ h1, h2 {
     border-radius: 6px;
     padding: 5px;
 
-    background-color: #ffe9ec;
+    background-color: #E1C16E;
 }
 
 #contact_us_button a {
@@ -271,7 +271,7 @@ h1, h2 {
     font-size: 180%;
     float: left;
     text-align: center;
-    background-color: #ffe9ec;
+    background-color: #E1C16E;
 }
 
 /* Selection of cakes strip */
@@ -290,7 +290,7 @@ h1, h2 {
     overflow: hidden;
     margin: 5% 6%;
     display: flex;
-    border: 10px solid #ddd;
+    border: 10px solid white;
     border-radius: 4px;
 }
 
