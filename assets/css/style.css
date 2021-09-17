@@ -217,7 +217,7 @@ h1, h2 {
 
 #signature {
     position: absolute;
-    bottom: 10%;
+    bottom: 18%;
     left: 55%;
 }
 
@@ -244,6 +244,28 @@ h1, h2 {
     left: 65%;
 }
 
+#contact_us_button {
+    position: absolute;
+    bottom: 8%;
+    left: 57.5%;
+    
+    border: 2px solid #080808;
+    border-radius: 6px;
+    padding: 5px;
+
+    background-color: #ffe9ec;
+}
+
+#contact_us_button a {
+    text-decoration: none;
+}
+
+#contact_us_button h2 {
+    font-size: 180%;
+    float: left;
+    text-align: center;
+    background-color: #ffe9ec;
+}
 
 /* Media Queries */
 
