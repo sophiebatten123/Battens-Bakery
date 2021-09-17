@@ -85,3 +85,13 @@ h1, h2 {
 #position {
     position: relative;
 }
+
+#signup {
+    position: absolute;
+    right: 8%;
+    top: 40%;
+}
+
+#signup a {
+    text-decoration: none;
+}
