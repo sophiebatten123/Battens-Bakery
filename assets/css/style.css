@@ -152,6 +152,99 @@ h1, h2 {
     font-family: Mate SC, sans-serif;
     font-size: 200%;
 }
+
+/* About Us */
+
+#background_color_about {
+    height: 600px;
+    width: 100%;
+    background-color: #C7BF94;
+    position: relative;
+}
+
+#foreground_color_about {
+    height: 550px;
+    width: 98%;
+    background-color: white;
+    position: absolute;
+    top: 4%;
+    left: 1%;
+    }
+
+#border {
+    height: 400px;
+    width: 350px;
+    border: 5px solid #808000;
+    background-color: white;
+
+    position: absolute;
+    top: 12%;
+    left: 5%;
+}
+
+#position_image_one {
+    position: absolute;
+    top: 5%;
+    left: 2%;
+}
+
+.about_image img {
+    height: 25%;
+    width: 25%;
+
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#position_image_two {
+    position: absolute;
+    top: 25%;
+    left: 14%;
+}
+
+#welcome {
+    position: absolute;
+    top: 5%;
+    left: 48%;
+}
+
+#welcome img {
+    height: 75%;
+    width: 75%;
+}
+
+#signature {
+    position: absolute;
+    bottom: 10%;
+    left: 55%;
+}
+
+#signature img {
+    height: 40%;
+    width: 40%;
+}
+
+.about_us_text {
+    font-family: Mate SC, sans-serif;
+    text-align: center;
+    width: 25%;
+}
+
+#about_left {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
+#about_right {
+    position: absolute;
+    top: 30%;
+    left: 65%;
+}
+
+
 /* Media Queries */
 
 /* For larger to medium screens from size 1340px wide and down */
