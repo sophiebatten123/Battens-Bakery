@@ -161,7 +161,7 @@ h1, h2 {
 
 /* About Us */
 
-.background_color {
+#background_color {
     height: 600px;
     width: 100%;
     background-color: #C7BF94;
@@ -347,35 +347,64 @@ h1, h2 {
     padding: 0;
 }
 
-#button_background_color {
-    background-color: #C7BF94;
+/* Afternoon Tea */
+
+#background_color_afternoon_tea {
+    height: 400px;
     width: 100%;
-    height: 50px;
+    background-color: #C7BF94;
+    position: relative;
 }
 
-#text {
-    width: 800px;
-    height: 50px;
-    margin: 0 30%;
+#position_image_tea_one {
+    position: absolute;
+    top: 5%;
+    right: 2%;
+}
+
+#position_image_tea_two {
+    float: right;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+#border_tea {
+    border: 5px solid white;
+    border-radius: 3px;
+
+    height: 300px;
+    width: 300px;
+
+    float: right;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+#about_afternoon_tea {
     background-color: white;
-    border: 2px solid #080808;
-    border-radius: 5px;
+    border: 5px solid white;
+    border-radius: 3px;
+
+    height: 320px;
+    width: 1200px;
+
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.about_image_tea img {
+    height: 15%;
+    width: 15%;
+
+    border: 5px solid white;
+    border-radius: 3px;
+    padding: 5px;
     box-sizing: border-box;
 }
 
-#text a {
-    text-decoration: none;
-}
-#text h2 {
-    width: 100%;
-    text-align: center;
-    font-family: Mate SC, sans-serif;
-    font-size: 220%;
-    background-color: white;
-    float: left;
-    padding-left: 50%;
-    padding-top: 1%;
-}
 
 /* Media Queries */
 
