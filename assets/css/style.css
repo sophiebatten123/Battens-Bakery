@@ -278,25 +278,25 @@ h1, h2 {
 
 .background_color_selection {
     background-color: #C7BF94;
-    height: 600px;
+    height: 360px;
     width: 100%;
 }
 
 .border {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     box-sizing: border-box;
     float: left;
     overflow: hidden;
-    margin: 5% 6%;
+    margin: 2% .4%;
     display: flex;
     border: 10px solid white;
     border-radius: 4px;
 }
 
   .container {
-      width: 400px;
-      height: 400px;
+      width: 300px;
+      height: 300px;
   }
 
 #selection1 {
