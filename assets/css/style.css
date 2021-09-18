@@ -383,83 +383,100 @@ h1, h2 {
 
 @media screen and (max-width: 1900px) {
     .border {
-        height: 400px;
-        width: 400px;
-        margin: 5% 5%;
+        height: 300px;
+        width: 300px;
+        margin: 1% 5%;
     }
 }
 
 @media screen and (max-width: 1720px) {
     .border {
-        height: 400px;
-        width: 400px;
-        margin: 3% 4%;
+        height: 250px;
+        width: 250px;
+        margin: 2% .4%;
+    }
+    .background_color_selection {
+        height: 300px;
+     }
+    .container {
+        width: 250px;
+        height: 250px;
     }
 }
 
 @media screen and (max-width: 1580px) {
     .border {
-        height: 400px;
-        width: 400px;
-        margin: 3% 3%;
+        height: 200px;
+        width: 200px;
+        margin: 3% 1.5%;
+    }
+    .background_color_selection {
+        height: 280px;
+     }
+    .container {
+        width: 200px;
+        height: 200px;
     }
 }
 
 @media screen and (max-width: 1500px) {
     .border {
-        height: 350px;
-        width: 350px;
-        margin: 3% 3.5%;
+        height: 200px;
+        width: 200px;
+        margin: 3% 1%;
     }
      .background_color_selection {
-        height: 500px;
+        height: 280px;
      }
 
      .container {
-         height: 350px;
-         width: 350px;
+         height: 200px;
+         width: 200px;
      }
 }
 
 @media screen and (max-width: 1400px) {
     .border {
-        height: 310px;
-        width: 310px;
-        margin: 3% 3%;
+        height: 200px;
+        width: 200px;
+        margin: 3% .2%;
     }
     .background_color_selection {
-        height: 450px;
+        height: 250px;
     }
     .container {
-        height: 300px;
-        width: 300px;
+        height: 200px;
+        width: 200px;
     }
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1230px) {
     .border {
-        height: 280px;
-        width: 280px;
-        margin: 3% 3%;
+        height: 230px;
+        width: 230px;
+        margin: 3% 5%;
+    }
+    .background_color_selection {
+        height: 600px;
     }
     .container {
-        height: 280px;
-        width: 280px;
+        height: 230px;
+        width: 230px;
     }
 }
 
 @media screen and (max-width: 1030px) {
     .border {
-        height: 240px;
-        width: 240px;
-        margin: 3% 3%;
+        height: 200px;
+        width: 200px;
+        margin: 3% 5%;
     }
     .background_color_selection {
-        height: 400px;
+        height: 500px;
     }
     .container {
-        height: 240px;
-        width: 240px;
+        height: 180px;
+        width: 180px;
     }
 }
 
@@ -468,6 +485,9 @@ h1, h2 {
         height: 230px;
         width: 230px;
         margin: 3% 3%;
+    }
+    .background_color_selection {
+        height: 550px;
     }
     .container {
         height: 220px;
@@ -479,10 +499,10 @@ h1, h2 {
     .border {
         height: 200px;
         width: 200px;
-        margin: 3% 3%;
+        margin: 3% 2%;
     }
     .background_color_selection {
-        height: 300px;
+        height: 500px;
     }
     .container {
         height: 190px;
