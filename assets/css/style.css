@@ -380,13 +380,12 @@ h1, h2 {
 
 #afternoon_tea_joinus {
     position: absolute;
-    top: 0;
-    left: 22%;
+    top: 10%;
+    left: 18%;
 }
 
-#afternoon_tea_joinus img {
-    width: 400px;
-    height: 153px;
+#afternoon_tea_joinus h2 {
+    font-size: 200%;
 }
 
 #afternoon_tea_img1 {
@@ -466,6 +465,75 @@ h1, h2 {
     float: left;
     text-align: center;
     background-color: #E1C16E;
+}
+
+/* Sign up section */
+
+#sign_up_background {
+    width: 100%;
+    height: 400px;
+    position: relative;
+
+    background-color: #C7BF94;
+}
+
+#sign_up_foreground_square {
+    width: 350px;
+    height: 350px;
+
+    position: absolute;
+    top: 7%;
+    left: 2%;
+
+    background-color: white;
+}
+
+#square_border {
+    width: 320px;
+    height: 320px;
+
+    border: 4px solid #808000;
+
+    position:absolute;
+    top: 3.5%;
+    left: 3.5%;
+}
+
+#sign_up_img {
+    position: absolute;
+    top: 1.5%;
+    left: 6.5%;
+
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+#sign_up_img img {
+    width: 269px;
+    height: 300px;
+}
+
+#sign_up_foreground_rectangle {
+    width: 1450px;
+    height: 350px;
+
+    position: absolute;
+    top: 7%;
+    right: 2%;
+
+    background-color: white;
+}
+
+#sign_up_heading {
+    position: absolute;
+    top: 5%;
+    right: 30%;
+}
+
+#sign_up_heading h2 {
+    font-size: 200%;
 }
 
 /* Media Queries */
