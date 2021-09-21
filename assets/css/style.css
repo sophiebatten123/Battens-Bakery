@@ -386,6 +386,7 @@ h1, h2 {
     background-color: #C7BF94;
     width: 100%;
     height: 30px;
+    position: relative;
 }
 
 /* Afternoon Tea */
@@ -552,6 +553,7 @@ h1, h2 {
     right: 2%;
 
     background-color: white;
+    
 }
 
 #sign_up_heading {
@@ -606,6 +608,10 @@ h1, h2 {
     font-size: 180%;
 }
 
+#sumbit_button :hover {
+    cursor: pointer;
+}
+
 #letter_icon_right {
     position: absolute;
     top: 5%;
@@ -633,18 +639,67 @@ h1, h2 {
 
 #footer_media {
     position: absolute;
-    right: 8%;
-    top: 70%;
+    right: 45%;
+    top: 23%;
 }
 
 #footer_media li {
     display: inline-block;
 }
 
+#quote_strip_footer {
+    background-color: #C7BF94;
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+
 #footer_media i {
     font-size: 200%;
     color: #080808;
     letter-spacing: 20px;
+}
+
+#about_battens_bakery {
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    width: 50%;
+}
+
+#about_battens_bakery li {
+    display: inline-block;
+    padding: 0 2%;
+}
+
+#about_battens_bakery a {
+    text-decoration: none;
+}
+
+#about_battens_bakery h2 {
+    letter-spacing: 2px;
+    font-size: 180%;
+}
+
+#about_bakery {
+    position: absolute;
+    top: 65%;
+    right: 1%;
+    width: 80%;
+}
+
+#about_bakery li {
+    display: inline-block;
+    padding: 0 2%;
+}
+
+#about_bakery a {
+    text-decoration: none;
+}
+
+#about_bakery h2 {
+    letter-spacing: 1px;
+    font-size: 120%;
 }
 
 /* Media Queries */
