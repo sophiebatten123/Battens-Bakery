@@ -263,7 +263,7 @@ h1, h2 {
     border-radius: 6px;
     padding: 5px;
 
-    background-color: #E1C16E;
+    background-color: whitesmoke;
 }
 
 #contact_us_button a {
@@ -274,7 +274,7 @@ h1, h2 {
     font-size: 180%;
     float: left;
     text-align: center;
-    background-color: #E1C16E;
+    background-color: whitesmoke;
 }
 
 /* Selection of cakes strip */
@@ -486,7 +486,7 @@ h1, h2 {
     border-radius: 6px;
     padding: 5px;
 
-    background-color: #E1C16E;
+    background-color: whitesmoke;
 }
 
 #afternoon_tea_button a {
@@ -497,7 +497,7 @@ h1, h2 {
     font-size: 180%;
     float: left;
     text-align: center;
-    background-color: #E1C16E;
+    background-color: whitesmoke;
 }
 
 /* Sign up section */
@@ -603,7 +603,7 @@ h1, h2 {
 }
 
 #sumbit_button input {
-    background-color: #E1C16E;
+    background-color: whitesmoke;
     width: 30%;
     font-size: 180%;
 }
@@ -707,9 +707,112 @@ h1, h2 {
 #menu_background {
     background-color: #F2EDD7;
     width: 100%;
-    height: 1200px;
+    height: 1100px;
+
+    position: relative;
 }
 
+#menu_header {
+    text-align: center;
+    padding-top: 1%;
+}
+
+#menu_header h2 {
+    font-size: 220%;
+}
+
+#menu_header h3 {
+    font-size: 180%;
+    color: #808000;
+    padding-top: 1%;
+}
+
+#classic_afternoon_tea {
+    background-color: white;
+    border: 2px dashed #808000;
+    width: 40%;
+    height: 43%;
+
+    position: absolute;
+    top: 15%;
+    left: 8%;
+}
+
+#premium_afternoon_tea {
+    background-color: white;
+    border: 2px dashed #808000;
+    width: 40%;
+    height: 68%;
+
+    position: absolute;
+    top: 15%;
+    right: 8%;
+}
+
+#extra_afternoon_tea {
+    background-color: white;
+    border: 2px dashed #808000;
+    width: 40%;
+    height: 24%;
+
+    position: absolute;
+    top: 59%;
+    left: 8%;
+}
+
+.menu p{
+    text-align: center;
+    font-size: 150%;
+}
+
+.menu h2 {
+    text-align: center;
+    font-size: 150%;
+    padding-top: 1%;
+}
+
+.menu h3 {
+    text-align: center;
+    font-size: 150%;
+}
+
+.price {
+    color: #808000;
+    font-style: italic;
+}
+
+.menu h2::before {
+    content: "\A";
+    white-space: pre;
+}
+
+.menu h3::before {
+    content: "\A";
+    white-space: pre;
+}
+
+#menu_button {
+    position: absolute;
+    bottom: 6%;
+    left: 42%;
+    
+    border: 2px solid #080808;
+    border-radius: 6px;
+    padding: 5px;
+
+    background-color: whitesmoke;
+}
+
+#menu_button a {
+    text-decoration: none;
+}
+
+#menu_button h2 {
+    font-size: 180%;
+    float: left;
+    text-align: center;
+    background-color: whitesmoke;
+}
 /* Media Queries */
 
 /* For large screens from size 1900px and down */
