@@ -716,7 +716,7 @@ h1, h2 {
     font-size: 220%;
 }
 
-#menu_header h3 {
+#menu_header p {
     font-size: 180%;
     color: #808000;
     padding-top: 1%;
@@ -826,7 +826,7 @@ h1, h2 {
     font-size: 220%;
 }
 
-#heading_recipes h3 {
+#heading_recipes p {
     font-size: 180%;
     color: #808000;
     padding-top: 1%;
@@ -948,6 +948,7 @@ h1, h2 {
 
 .border_recipes a:hover{
     cursor: pointer;
+    border-bottom: 1px dashed #808000;
 }
 
 .border_recipes p {
@@ -980,7 +981,7 @@ h1, h2 {
     display: flex;
 }
 
-/*Victoria Sponge Page */
+/* Recipe Pages */
 
 #background_recipes_page {
     background-color: white;
