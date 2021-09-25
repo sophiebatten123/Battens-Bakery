@@ -1021,6 +1021,56 @@ h1, h2 {
     padding:0;
 }
 
+#image2_recipe {
+    background: url('../images/selection2.jpeg') no-repeat center center;
+    height: 45%;
+    width: 45%;
+    border-radius: 50%;
+    background-size: cover;
+    text-align:center;
+    padding:0;
+}
+
+#image3_recipe {
+    background: url('../images/selection3.jpeg') no-repeat center center;
+    height: 45%;
+    width: 45%;
+    border-radius: 50%;
+    background-size: cover;
+    text-align:center;
+    padding:0;
+}
+
+#image4_recipe {
+    background: url('../images/selection4.jpeg') no-repeat center center;
+    height: 45%;
+    width: 45%;
+    border-radius: 50%;
+    background-size: cover;
+    text-align:center;
+    padding:0;
+}
+
+#image5_recipe {
+    background: url('../images/selection5.jpeg') no-repeat center center;
+    height: 45%;
+    width: 45%;
+    border-radius: 50%;
+    background-size: cover;
+    text-align:center;
+    padding:0;
+}
+
+#image6_recipe {
+    background: url('../images/selection6.jpeg') no-repeat center center;
+    height: 45%;
+    width: 45%;
+    border-radius: 50%;
+    background-size: cover;
+    text-align:center;
+    padding:0;
+}
+
 .ratings_recipe {
     font-size: 150%;
     padding: 4%;
