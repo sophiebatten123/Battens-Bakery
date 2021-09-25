@@ -920,7 +920,7 @@ h1, h2 {
 
 .border_recipes h2 {
     text-align: center;
-    font-size: 150%;
+    font-size: 160%;
     display: flex;
 
 }
@@ -1076,6 +1076,10 @@ h1, h2 {
     .background_recipes {
         height: 400px;
     }
+    .icons h3 {
+        font-size: 60%;
+        letter-spacing: 1px;
+    }
 }
 
 @media screen and (max-width: 1030px) {
@@ -1100,6 +1104,11 @@ h1, h2 {
     .background_recipes {
         height: 350px;
     }
+    .icons h3 {
+        font-size: 55%;
+        letter-spacing: 1px;
+        padding: 10px;
+    }
 }
 
 @media screen and (max-width: 916px) {
@@ -1123,6 +1132,11 @@ h1, h2 {
     }
     .background_recipes {
         height: 350px;
+    }
+    .icons h3 {
+        font-size: 50%;
+        letter-spacing: 1px;
+        padding: 8px;
     }
 }
 
