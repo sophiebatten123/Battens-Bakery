@@ -146,10 +146,8 @@ h1, h2 {
 }
 
 .quote {
-    text-align: center;
-    margin: 0 auto;
-    padding: 1.5% 0;
     background-color: #F2EDD7;
+    height: 30px;
 }
 
 .quote h2 {
