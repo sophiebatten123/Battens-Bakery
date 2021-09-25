@@ -72,6 +72,7 @@ h1, h2 {
 
 #navigation_style {
     background-color: #C7BF94;
+    height: 75px;
 }
 
 #media_platforms {
@@ -816,148 +817,116 @@ h1, h2 {
 
 /*Recipes*/
 
+#empty_space {
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+
+#recipe_heading h2 {
+    text-align: center;
+    font-size: 200%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .background_recipes {
     background-color: #F2EDD7;
     width: 100%;
     height: 605px;
-
-    position: relative;
 }
 
-.border {
-    width:33%;
-    height: 600px;
+.recipes {
+    height: 100%;
+}
+
+.border_recipes {
+    width:33.333%;
+    height: 100%;
     box-sizing: border-box;
     float:left;
     overflow: hidden;
-    margin:0.08%;
+    margin:0;
 
-    border: 2px dashed white;
+    border: 2px dashed #808000;
     position: relative;
-}
+    background-color: white;
 
-.horizontal {
-    margin: 0 auto;
-    width: 50%;
-    padding-top: 5%;
-    padding-left: 5%;
-}
-
-.recipecircle {
-    width: 90%;
-    height: 50%;
-    border: 1px solid black;
-    border-radius: 50%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #image1 {
     background: url('../images/selection1.jpeg') no-repeat center center;
-    height: 100%;
+    height: 45%;
+    width: 45%;
     border-radius: 50%;
     background-size: cover;
     text-align:center;
-    margin:auto;
     padding:0;
 }
 
 #image2 {
     background: url('../images/selection2.jpeg') no-repeat center center;
-    height: 100%;
+    height: 45%;
+    width: 45%;
     border-radius: 50%;
     background-size: cover;
     text-align:center;
-    margin:auto;
     padding:0;
 }
 
 #image3 {
     background: url('../images/selection3.jpeg') no-repeat center center;
-    height: 100%;
+    height: 45%;
+    width: 45%;
     border-radius: 50%;
     background-size: cover;
     text-align:center;
-    margin:auto;
     padding:0;
 }
 
 #image4 {
     background: url('../images/selection4.jpeg') no-repeat center center;
-    height: 100%;
+    height: 45%;
+    width: 45%;
     border-radius: 50%;
     background-size: cover;
     text-align:center;
-    margin:auto;
     padding:0;
 }
 
 #image5 {
     background: url('../images/selection5.jpeg') no-repeat center center;
-    height: 100%;
+    height: 45%;
+    width: 45%;
     border-radius: 50%;
     background-size: cover;
     text-align:center;
-    margin:auto;
     padding:0;
 }
 
 #image6 {
     background: url('../images/selection6.jpeg') no-repeat center center;
-    height: 100%;
+    height: 45%;
+    width: 45%;
     border-radius: 50%;
     background-size: cover;
     text-align:center;
-    margin:auto;
     padding:0;
 }
 
-.border> h2 {
+.border_recipes h2 {
     text-align: center;
-}
+    font-size: 150%;
+    display: flex;
 
-#heading_vs {
-    position: absolute;
-    top: 60%;
-    left: 10%;
-}
-
-#heading_mcc {
-    position: absolute;
-    top: 60%;
-    left: 15%;
-}
-
-#heading_tc {
-    position: absolute;
-    top: 60%;
-    left: 12%;
-}
-
-#heading_at {
-    position: absolute;
-    top: 60%;
-    left: 12%;
-}
-
-#heading_dbv {
-    position: absolute;
-    top: 60%;
-    left: 6%;
-}
-
-#heading_vc {
-    position: absolute;
-    top: 60%;
-    left: 25%;
 }
 
 .checked {
     color: #f4ca16;
-}
-
-.ratings { 
-    position: absolute;
-    top: 70%;
-    left: 40%;
 }
 
 .icons h3 {
@@ -974,10 +943,9 @@ h1, h2 {
 }
 
 .icons {
-    position: absolute;
-    top: 80%;
-    left:18%;
+    display: flex;
 }
+
 /* Media Queries */
 
 /* For large screens from size 1900px and down */
@@ -991,6 +959,10 @@ h1, h2 {
     .container {
         width: 270px;
         height: 270px;
+    }
+    .border_recipes h2 {
+        text-align: center;
+        font-size: 130%;
     }
 }
 
@@ -1013,6 +985,9 @@ h1, h2 {
         height: 270px;
         width: 97.5%;
     }
+    .background_recipes {
+        height: 550px;
+    }
 }
 
 @media screen and (max-width: 1580px) {
@@ -1033,6 +1008,9 @@ h1, h2 {
         left: 1%;
         height: 250px;
         width: 97.5%;
+    }
+    .background_recipes {
+        height: 500px;
     }
 }
 
@@ -1071,6 +1049,9 @@ h1, h2 {
         height: 220px;
         width: 97.5%;
     }
+    .background_recipes {
+        height: 450px;
+    }
 }
 
 @media screen and (max-width: 1230px) {
@@ -1091,6 +1072,9 @@ h1, h2 {
         left: 1%;
         height: 550px;
         width: 97.5%;
+    }
+    .background_recipes {
+        height: 400px;
     }
 }
 
@@ -1113,6 +1097,9 @@ h1, h2 {
         height: 600px;
         width: 97.5%;
     }
+    .background_recipes {
+        height: 350px;
+    }
 }
 
 @media screen and (max-width: 916px) {
@@ -1134,6 +1121,9 @@ h1, h2 {
         height: 550px;
         width: 97.5%;
     }
+    .background_recipes {
+        height: 350px;
+    }
 }
 
 @media screen and (max-width: 843px) {
@@ -1154,6 +1144,9 @@ h1, h2 {
         left: 1%;
         height: 500px;
         width: 97.5%;
+    }
+    .background_recipes {
+        height: 300px;
     }
 }
 
