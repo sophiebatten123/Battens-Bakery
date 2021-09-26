@@ -602,14 +602,11 @@ h1, h2 {
 #background_footer {
     background-color: #F2EDD7;
     width: 100%;
-    height: 200px;
-    position: relative;
-}
+    height: 100px;
 
-#footer_media {
-    position: absolute;
-    right: 45%;
-    top: 23%;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
 }
 
 #footer_media li {
@@ -619,21 +616,30 @@ h1, h2 {
 #quote_strip_footer {
     background-color: #C7BF94;
     width: 100%;
-    height: 60px;
-    position: relative;
+    height:40px;
+    
+    display: flex;
+    justify-content: right;
+    flex-flow: wrap;
+
+    padding-top: 0.5%;
 }
 
 #footer_media i {
     font-size: 200%;
     color: #080808;
     letter-spacing: 20px;
+    
 }
 
 #about_battens_bakery {
-    position: absolute;
-    top: 25%;
-    right: 25%;
-    width: 50%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+
+    padding-top: 1%;
 }
 
 #about_battens_bakery li {
@@ -647,14 +653,17 @@ h1, h2 {
 
 #about_battens_bakery h2 {
     letter-spacing: 2px;
-    font-size: 180%;
+    font-size: 140%;
 }
 
 #about_bakery {
-    position: absolute;
-    top: 65%;
-    right: 1%;
-    width: 80%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+
+    padding-top:0.5%;
 }
 
 #about_bakery li {
@@ -668,7 +677,7 @@ h1, h2 {
 
 #about_bakery h2 {
     letter-spacing: 1px;
-    font-size: 120%;
+    font-size: 100%;
 }
 
 /* Menu */
@@ -1280,7 +1289,7 @@ h1, h2 {
         display: none;
     }
     #sign_up_text p {
-        font-size: 100%;
+        display: none;
     }
     #sign_up_heading h2 {
         font-size: 150%;
@@ -1483,9 +1492,11 @@ h1, h2 {
         padding-top: 3%;
         font-size: 91%;
     }
+    #about_bakery h2 {
+        font-size: 100%;
+    }
 }
    
-
 @media screen and (max-width: 843px) {
     .border {
         height: 200px;
