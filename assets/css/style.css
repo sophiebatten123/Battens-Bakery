@@ -386,100 +386,47 @@ h1, h2 {
 
 #afternoon_tea_background {
     width: 100%;
-    height: 600px;
+    height: 500px;
 
     background-color: #C7BF94;
-
-    position: relative;
+    padding-top: 2%;
 }
 
-#afternoon_tea_foreground {
-    width: 97%;
+#afternoon_tea_foreground_text {
+    width: 60%;
     height: 90%;
-
     background-color: white;
+    float: left;
 
-    position: absolute;
-    top: 5%;
-    left: 1.5%;
-}
-
-#afternoon_tea_joinus {
-    position: absolute;
-    top: 10%;
-    left: 18%;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;    
 }
 
 #afternoon_tea_joinus h2 {
     font-size: 200%;
-}
-
-#afternoon_tea_img1 {
-    position: absolute;
-    bottom: 5%;
-    right: 2.5%;
-
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    box-sizing: border-box;
-}
-
-#afternoon_tea_img1 img {
-    width: 220px;
-    height: 330px;
-}
-
-#afternoon_tea_img2 {
-    position: absolute;
-    top: 5%;
-    right: 14%;
-
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    box-sizing: border-box;
-}
-
-#afternoon_tea_img2 img {
-    width: 250px;
-    height: 313px;
-}
-
-#afternoon_tea_border {
-    width: 300px;
-    height: 360px;
-    border: 4px solid #808000;
-
-    position: absolute;
-    top: 10%;
-    right: 8%;
+    padding-top: 5%;
+    text-align: center;
 }
 
 #afternoon_tea_text {
-    width: 50%;
+    width: 80%;
     height: 300px;
-
-    position: absolute;
-    top: 29%;
-    left: 10%;
 }
 
 #afternoon_tea_text p {
     text-align: center;
     font-size: 120%;
+    padding-top: 5%;
 }
 
 #afternoon_tea_button {
-    position: absolute;
-    bottom: 8%;
-    left: 25%;
-    
     border: 2px solid #080808;
     border-radius: 6px;
     padding: 5px;
 
     background-color: white;
+    margin-bottom: 5%;
 }
 
 #afternoon_tea_button a {
@@ -488,10 +435,60 @@ h1, h2 {
 
 #afternoon_tea_button h2 {
     font-size: 180%;
-    float: left;
     text-align: center;
     background-color: white;
 }
+
+#afternoon_tea_foreground_images {
+    width: 40%;
+    height: 90%;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;   
+
+    float: right;
+}
+
+#afternoon_tea_img1 img {
+    width: 220px;
+    height: 330px;
+
+    z-index: index 1;
+
+    margin-top: 5%;
+    margin-left: 8%;
+
+    border: 2px solid #808000;
+    padding: 1%;
+    border-radius: 3px;
+}
+
+#afternoon_tea_img2 img {
+    width: 250px;
+    height: 313px; 
+
+    z-index:2;
+
+    margin-top: 48%;
+    margin-right: 8%;
+
+    border: 2px solid #808000;
+    padding: 1%;
+    border-radius: 3px;
+}
+
+/*#afternoon_tea_border {
+    width: 300px;
+    height: 360px;
+    border: 4px solid #808000;
+
+    margin-top: 5%;
+    margin-right: 5%;
+
+    z-index:0
+}*/
 
 /* Sign up section */
 
@@ -1231,6 +1228,10 @@ h1, h2 {
     .background_recipes {
         height: 500px;
     }
+    #afternoon_tea_text p {
+        padding-top: 2%;
+        font-size: 110%;
+    }
 }
 
 @media screen and (max-width: 1500px) {
@@ -1247,6 +1248,10 @@ h1, h2 {
          height: 230px;
          width: 230px;
      }
+     #afternoon_tea_text p {
+        padding-top: 3%;
+        font-size: 105%;
+    }
 }
 
 @media screen and (max-width: 1400px) {
@@ -1291,6 +1296,10 @@ h1, h2 {
     }
     #sign_up_heading {
         padding-top: 1%;
+    }
+    #afternoon_tea_text p {
+        font-size: 110%;
+        padding-top: 2%;
     }
 }
 
@@ -1346,6 +1355,17 @@ h1, h2 {
     }
     #sign_up_img {
         height: 100%;
+    }
+    #afternoon_tea_img1 img {
+        margin-top: 20%;
+        margin-right: 5%;
+    }
+    #afternoon_tea_img2 img {
+        display: none;
+    }
+    #afternoon_tea_text p {
+        padding-top: 3%;
+        font-size: 100%;
     }
 }
 
@@ -1406,6 +1426,12 @@ h1, h2 {
     #square_border {
         width: 250px;
     }
+    #afternoon_tea_img1 img {
+        margin-top: 20%;
+    }
+    #afternoon_tea_joinus h2 {
+        font-size: 160%;
+    }
 }
 
 @media screen and (max-width: 916px) {
@@ -1450,7 +1476,15 @@ h1, h2 {
     #sign_up_img {
          height: 100%;
     }
+    #afternoon_tea_img1 img {
+        margin-top: 20%;
+    }
+    #afternoon_tea_text p {
+        padding-top: 3%;
+        font-size: 91%;
+    }
 }
+   
 
 @media screen and (max-width: 843px) {
     .border {
