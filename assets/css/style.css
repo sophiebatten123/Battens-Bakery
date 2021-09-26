@@ -495,87 +495,68 @@ h1, h2 {
 
 /* Sign up section */
 
-#sign_up_background {
-    width: 100%;
+#signup_background_outer {
     height: 400px;
-    position: relative;
-
-    background-color: #C7BF94;
 }
 
-#sign_up_foreground_square {
-    width: 18.5%;
-    height: 85%;
-
-    position: absolute;
-    top: 7%;
-    left: 2%;
-
-    background-color: white;
-}
-
-#square_border {
-    width: 90%;
+#sign_up_background {
+    width: 66.66%;
     height: 90%;
-
-    border: 4px solid #808000;
+    background-color: white;
+    float: right;
 
     display: flex;
     justify-content: center;
     flex-flow: wrap;
+}
 
-    position:absolute;
-    top: 3.5%;
-    left: 3.5%;
+#sign_up_foreground_square {
+    width: 33.33%;
+    height: 90%;
+    background-color: white;
+    float: left;
+
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+#square_border {
+  width: 350px;
 }
 
 #sign_up_img {
     background: url('../images/afternoon6.jpeg') no-repeat center center;
     height: 100%;
     background-size: cover;
-    margin: auto;
-    padding: 0;
-}
+    margin-top: 5%;
 
-#sign_up_foreground_rectangle {
-    width: 77%;
-    height: 85%;
-
-    position: absolute;
-    top: 7%;
-    right: 2%;
-
-    background-color: white;
-    
+    border: 2px dashed #808000;
+    padding: 5px;
 }
 
 #sign_up_heading {
-    position: absolute;
-    top: 5%;
-    right: 30%;
+    padding-top: 5%;
 }
 
 #sign_up_heading h2 {
     font-size: 200%;
+    text-align: center;
 }
 
 #sign_up_text {
     width: 60%;
-    position: absolute;
-    top: 25%;
-    left: 18%;
 }
 
 #sign_up_text p {
+    font-size: 120%;
     text-align: center;
 }
 
 #email_signup {
-    position: absolute;
-    top: 50%;
-    right: 5%;
-
     width: 1000px;
+    padding-left: 23%;
+    padding-top: 1%;
 }
 
 #email_signup input {
@@ -591,8 +572,8 @@ h1, h2 {
 } 
 
 #sumbit_button {
-    margin-top: 5%;
-    margin-left: 21%;
+    padding-top: 3%;
+    padding-left: 21%;
 }
 
 #sumbit_button input {
@@ -605,20 +586,22 @@ h1, h2 {
     cursor: pointer;
 }
 
-#letter_icon_right {
-    position: absolute;
-    top: 5%;
-    right: 5%;
-
-    font-size: 200%;
+#letter_icons {
+    width: 100%;
+    font-size: 180%;
+}
+#letter_icons h2 {
+    color: #808000;
+    display: inline;
+    padding: 0 10%;
 }
 
-#letter_icon_left {
-    position: absolute;
-    top: 5%;
-    left: 5%;
+#letter_left {
+    float: left;
+}
 
-    font-size: 200%;
+#letter_right {
+    float: right;
 }
 
 /* Footer */
@@ -1375,6 +1358,12 @@ h1, h2 {
     }
     #glasses_icons h2 {
         padding: 0 5%;
+    }
+    #square_border {
+    width: 250px;
+    }
+     #sign_up_img {
+         height: 90%;
     }
 }
 
