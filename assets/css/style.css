@@ -740,7 +740,7 @@ h1, h2 {
 #glasses_icons h2 {
     display: inline;
     padding: 0 10%;
-    color: #080808;
+    color: #808000;
 }
 
 #classic_afternoon_tea {
@@ -1198,6 +1198,9 @@ h1, h2 {
         text-align: center;
         font-size: 130%;
     }
+    #premium_afternoon_tea {
+        height: 36%;
+    }
 }
 
 @media screen and (max-width: 1720px) {
@@ -1221,6 +1224,9 @@ h1, h2 {
     }
     .background_recipes {
         height: 550px;
+    }
+    #premium_afternoon_tea {
+        height: 36%;
     }
 }
 
@@ -1317,6 +1323,15 @@ h1, h2 {
         font-size: 60%;
         letter-spacing: 1px;
     }
+    #premium_afternoon_tea {
+        height: 34%;
+    }
+    #classic_afternoon_tea {
+        height: 24%;
+    }
+    .menu p {
+        font-size: 130%;
+    }
 }
 
 @media screen and (max-width: 1030px) {
@@ -1345,6 +1360,21 @@ h1, h2 {
         font-size: 55%;
         letter-spacing: 1px;
         padding: 10px;
+    }
+    #premium_afternoon_tea {
+        height: 37%;
+    }
+    #classic_afternoon_tea {
+        height: 27%;
+    }
+    .menu p {
+        font-size: 130%;
+    }
+    #glasses_icons {
+        font-size: 150%;
+    }
+    #glasses_icons h2 {
+        padding: 0 5%;
     }
 }
 
@@ -1398,6 +1428,15 @@ h1, h2 {
     }
     .background_recipes {
         height: 300px;
+    }
+    #premium_afternoon_tea {
+        height: 35%;
+    }
+    #classic_afternoon_tea {
+        height: 27%;
+    }
+    .menu p {
+        font-size: 120%;
     }
 }
 
