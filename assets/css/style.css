@@ -173,37 +173,46 @@ h1, h2 {
     left: 1%;
     }
 
-#border {
-    height: 70%;
-    width: 20%;
-    border: 5px solid #808000;
-    background-color: white;
+#about_us_foreground_images {
+    width: 30%;
+    height: 90%;
+    background-color: red;
 
-    position: absolute;
-    top: 12%;
-    left: 5%;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;   
+
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
 }
 
-#position_image_one {
-    position: absolute;
-    top: 5%;
-    left: 2%;
+#about_us_img1 img {
+    width: 220px;
+    height: 330px;
+
+    z-index: index 1;
+
+    margin-top: 5%;
+    margin-left: 8%;
+
+    border: 2px solid #808000;
+    padding: 1%;
+    border-radius: 3px;
 }
 
-.about_image img {
-    height: 25%;
-    width: 25%;
+#about_us_img2 img {
+    width: 250px;
+    height: 313px; 
 
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    box-sizing: border-box;
-}
+    z-index:2;
 
-#position_image_two {
-    position: absolute;
-    top: 25%;
-    left: 14%;
+    margin-top: 48%;
+    margin-right: 8%;
+
+    border: 2px solid #808000;
+    padding: 1%;
+    border-radius: 3px;
 }
 
 #welcome {
@@ -667,17 +676,6 @@ h1, h2 {
 #about_bakery h2 {
     letter-spacing: 1px;
     font-size: 100%;
-}
-
-/*Hidden by Default*/
-
-.dropdown-content {
-    display: none;
-}
-
-  /*Show when clicked*/
-.dropdown:on-click .dropdown-content {
-      display: block;
 }
 
 /* Menu */
@@ -1653,6 +1651,27 @@ h1, h2 {
     }
     #sign_up_img {
          height: 100%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #navigation {
+        font-size: 90%;
+    }
+    #navigation li {
+        padding: 3% 5px;
+    }
+    #afternoon_tea_img1 img {
+        display: none;
+    }
+    #title {
+        font: 180%;
+    }
+    #afternoon_tea_foreground_images {
+        display: none;
+    }
+    #afternoon_tea_foreground_text {
+        width: 100%;
     }
 }
 
