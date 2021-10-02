@@ -148,6 +148,7 @@ h1, h2 {
 .quote {
     background-color: #F2EDD7;
     height: 30px;
+    width: 100%;
 }
 
 .quote h2 {
@@ -171,12 +172,13 @@ h1, h2 {
     position: absolute;
     top: 4%;
     left: 1%;
+
+    background-color: white;
     }
 
 #about_us_foreground_images {
-    width: 30%;
+    width: 25%;
     height: 90%;
-    background-color: red;
 
     display: flex;
     justify-content: center;
@@ -187,54 +189,58 @@ h1, h2 {
     margin-left: 25px;
 }
 
-#about_us_img1 img {
-    width: 220px;
-    height: 330px;
-
-    z-index: index 1;
-
-    margin-top: 5%;
-    margin-left: 8%;
-
-    border: 2px solid #808000;
-    padding: 1%;
-    border-radius: 3px;
+#about_us_img2 {
+    width: 300px;
+    height: 500px;
+    
+    margin-top: 3%;    
 }
 
 #about_us_img2 img {
-    width: 250px;
-    height: 313px; 
-
-    z-index:2;
-
-    margin-top: 48%;
-    margin-right: 8%;
+    width: 100%;
+    height: auto; 
 
     border: 2px solid #808000;
     padding: 1%;
-    border-radius: 3px;
+}
+
+#aboutus_text {
+    width: 70%;
+    height: 90%;
+
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;   
+
+    float: right;
+    margin-top: 25px;
+    margin-right: 25px;  
 }
 
 #welcome {
-    position: absolute;
-    top: 5%;
-    left: 48%;
+    width: 400px;
+    height: 100px;
 }
 
 #welcome img {
-    height: 75%;
-    width: 75%;
+    width: 100%;
+    height:auto;
 }
 
 #signature {
-    position: absolute;
-    bottom: 18%;
-    left: 55%;
+    width: 250px;
+    height: 70px;
+
+    margin-top: 1%;
 }
 
 #signature img {
-    height: 40%;
-    width: 40%;
+    width: 100%;
+    height: auto;
+}
+
+#text_about {
+    width: 100%;
 }
 
 .about_us_text {
@@ -245,27 +251,37 @@ h1, h2 {
 }
 
 #about_left {
-    position: absolute;
-    top: 25%;
-    left: 35%;
+    width: 45%;
+    float: left;
+    margin-left: 2%;
 }
 
 #about_right {
-    position: absolute;
-    top: 25%;
-    left: 65%;
+    width: 45%;
+    float: right;
+    margin-right: 2%;
+}
+
+#contact {
+    width: 100%;
+
+    margin-top: 2%;
 }
 
 #contact_us_button {
-    position: absolute;
-    bottom: 8%;
-    left: 57.5%;
-    
+    width: 30%;
+    height: 30px;
+
+    margin: 0 auto;
     border: 2px solid #080808;
     border-radius: 6px;
     padding: 5px;
 
     background-color: white;
+
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;  
 }
 
 #contact_us_button a {
@@ -276,12 +292,13 @@ h1, h2 {
     font-size: 180%;
     float: left;
     text-align: center;
-    background-color: whitesmoke;
+    background-color: white;
+
 }
 
 /* Selection of cakes strip */
 
-.background_color_selection {
+#background_color_selection {
     background-color: #C7BF94;
     height: 350px;
     width: 100%;
@@ -382,6 +399,10 @@ h1, h2 {
 
 #click_here a:hover {
     border-bottom: 2px solid #080808;
+}
+
+#short_text {
+    display: none;
 }
 
 #quote_strip {
@@ -557,17 +578,10 @@ h1, h2 {
     text-align: center;
 }
 
-#email_signup {
-    width: 1000px;
-    padding-left: 23%;
-    padding-top: 1%;
-}
-
 #email_signup input {
     border: 1px solid #080808;
     border-radius: 3px;
     padding: 5px;
-    width: 65%;
     background-color: white;
 
     font-size: 150%;
@@ -575,9 +589,15 @@ h1, h2 {
     text-align: center;
 } 
 
-#sumbit_button {
-    padding-top: 3%;
-    padding-left: 21%;
+#email {
+    width: 90%;
+    margin-left: 4%;
+}
+
+#submit {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 5%;
 }
 
 #sumbit_button input {
@@ -1303,7 +1323,7 @@ h1, h2 {
         width: 250px;
         margin: .5% .1%;
     }
-    .background_color_selection {
+    #background_color_selection {
         height: 300px;
      }
     .container {
@@ -1330,7 +1350,7 @@ h1, h2 {
         width: 200px;
         margin: 1.5% .5%;
     }
-    .background_color_selection {
+    #background_color_selection {
         height: 280px;
      }
     .container {
@@ -1358,7 +1378,7 @@ h1, h2 {
         width: 230px;
         margin: 3% .3%;
     }
-     .background_color_selection {
+     #background_color_selection {
         height: 280px;
      }
 
@@ -1378,7 +1398,7 @@ h1, h2 {
         width: 200px;
         margin: .5% .01%;
     }
-    .background_color_selection {
+    #background_color_selection {
         height: 250px;
     }
     .container {
@@ -1419,6 +1439,10 @@ h1, h2 {
         font-size: 110%;
         padding-top: 2%;
     }
+    #about_us_img2 {
+        width: 250px;
+        margin-top: 15%;
+    }
 }
 
 @media screen and (max-width: 1230px) {
@@ -1427,7 +1451,7 @@ h1, h2 {
         width: 230px;
         margin: 2% 5%;
     }
-    .background_color_selection {
+    #background_color_selection {
         height: 600px;
     }
     .container {
@@ -1485,6 +1509,13 @@ h1, h2 {
         padding-top: 3%;
         font-size: 100%;
     }
+    .about_us_text {
+        font-size: 105%;
+    }
+    #about_us_img2 {
+        width: 220px;
+        margin-top: 25%;
+    }
 }
 
 @media screen and (max-width: 1030px) {
@@ -1493,7 +1524,7 @@ h1, h2 {
         width: 200px;
         margin: 3% 5%;
     }
-    .background_color_selection {
+    #background_color_selection {
         height: 650px;
     }
     .container {
@@ -1550,6 +1581,15 @@ h1, h2 {
     #afternoon_tea_joinus h2 {
         font-size: 160%;
     }
+    #aboutus_text {
+        margin-right: 10px;
+    }
+    #about_us_foreground_images {
+        margin-left: 10px;
+    }
+    #contact_us_button {
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 916px) {
@@ -1558,7 +1598,7 @@ h1, h2 {
         width: 230px;
         margin: 3% 3%;
     }
-    .background_color_selection {
+    #background_color_selection {
         height: 600px;
     }
     .container {
@@ -1604,6 +1644,10 @@ h1, h2 {
     #about_bakery h2 {
         font-size: 100%;
     }
+    #about_us_img2 {
+        width: 250px;
+        margin-top: 45%;
+    }
 }
    
 @media screen and (max-width: 843px) {
@@ -1612,7 +1656,7 @@ h1, h2 {
         width: 200px;
         margin: 3% 2%;
     }
-    .background_color_selection {
+    #background_color_selection {
         height: 550px;
     }
     .container {
@@ -1652,26 +1696,26 @@ h1, h2 {
     #sign_up_img {
          height: 100%;
     }
-}
-
-@media screen and (max-width: 360px) {
-    #navigation {
-        font-size: 90%;
+    .about_us_text{
+        font-size: 95%;
     }
-    #navigation li {
-        padding: 3% 5px;
+    #about_left {
+        width: 47%;
     }
-    #afternoon_tea_img1 img {
+    #about_right {
+        width: 47%;
+    }
+    #about_us_foreground_images {
         display: none;
+     }
+     #foreground_color_about {
+        display: flex;
+        justify-content: center;
+        flex-flow: wrap;
     }
-    #title {
-        font: 180%;
-    }
-    #afternoon_tea_foreground_images {
-        display: none;
-    }
-    #afternoon_tea_foreground_text {
-        width: 100%;
+    #aboutus_text {
+        float: none;
+        width: 90%;
     }
 }
 
@@ -1715,20 +1759,6 @@ h1, h2 {
     #quote h2 {
         font-size: 130%;
         font-weight: bold;
-    }
-    #about_left {
-        position: absolute;
-        top: 25%;
-        left: 39%;
-    }
-    
-    #about_right {
-        position: absolute;
-        top: 25%;
-        left: 69%;
-    }
-    .about_us_text {
-        font-size: 90%;
     }
 }
 
@@ -1775,24 +1805,211 @@ h1, h2 {
         font-weight: bold;
         padding: 6% 2%;
     }
+}
+
+@media screen and (max-width: 640px) {
+    #afternoon_tea_img1 img {
+       margin-right: 0;
+       margin-left: 0;
+    }
+    #afternoon_tea_text {
+        width: 95%;
+    }
+    #afternoon_tea_button {
+        height: 30px;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    #afternoon_tea_background {
+        height: 500px;
+    }
+    #afternoon_tea_foreground_text {
+        height: 490px;
+    }
+    #afternoon_tea_foreground_images {
+        height: 490px;
+    }
+    .container {
+        height: 180px;
+        width: 180px;
+    }
+    .border {
+        height: 180px;
+        width: 180px;
+    }
+    #short_text {
+        display: inline-block;
+    }
+    #long_text {
+        display: none;
+    }
+    #signup_responsive {
+        right: 5%;
+        top: 35%;
+    }
+    #cover_text {
+        width: 50%;
+    }
+    #sign_up_foreground_square {
+        display: none;
+    }
+    #signup_background_outer{
+        display: flex;
+        justify-content: center;
+        flex-flow: wrap;
+    }
+    #signup_border{
+        display: flex;
+        justify-content: center;
+        flex-flow: wrap;
+    }
+    #sign_up_background {
+        width: 90%;
+    }
+    #sumbit_button {
+        margin-left: 20%;
+    }
+    #sign_up_heading{
+        padding-top: 5%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #navigation {
+        font-size: 110%;
+    }
+    #navigation li {
+        padding: 3% 5px;
+    }
+    #title {
+        font-size: 150%;
+        margin: 0 auto;
+        height: 30px;
+    }
+    #afternoon_tea_img1 img {
+        display: none;
+    }
+    #afternoon_tea_foreground_images {
+        display: none;
+    }
+    #afternoon_tea_foreground_text {
+        width: 100%;
+        height: 490px;
+    }
+    #afternoon_tea_background {
+        height: 500px;
+    }
+    #afternoon_tea_text {
+        width: 90%;
+    }
+    #afternoon_tea_text p{
+        font-size: 90%;
+    }
+    #about_us_foreground_images {
+       display: none;
+    }
+    #afternoon_tea_button {
+        height: 20px;
+        margin-top: 4%;
+    }
+    #afternoon_tea_button h2 {
+        font-size: 110%;
+    }
     #about_left {
-        position: absolute;
-        top: 15%;
-        left: 39%;
+        width: 100%;
+        float: none;
+        margin-left: 0;
     }
     #about_right {
-        position: absolute;
-        top: 15%;
-        left: 69%;
+        width: 100%;
+        float: none;
+        margin-right: 0;
+    }
+    .about_us_text{
+        font-size: 90%;
     }
     #welcome {
-        top: 2%;
+        height: 50px;
+        margin-bottom: 4%;
     }
     #signature {
-        bottom: 18%;
+        width: 60%;
+        height: 50px;
     }
     #contact_us_button {
-        bottom: 5%;
-        left: 50%;
+        width: 60%;
+    }
+    #aboutus_text {
+        float: none;
+        width: 90%;
+        margin-top: 0;
+    }
+    #foreground_color_about {
+        display: flex;
+        justify-content: center;
+        flex-flow: wrap;
+        height: 450px;
+    }
+    #background_color {
+        height: 500px;
+    }
+    #contact_us_button {
+        margin-top: 3%;
+        width: 70%;
+    }
+    #contact_us_button h2 {
+        font-size: 110%;
+    }
+    #signup_responsive {
+        right: 1%;
+        font-size: 90%;
+    }
+    #media_platforms {
+        display: none
+    }
+    .center {
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        flex-flow: wrap;
+    }
+    #cover_text h2 {
+        font-size: 90%;
+        letter-spacing: 2px;
+    }
+    #cover_text {
+        width: 60%;
+        height: 20%;
+        top: 65%;
+        padding-bottom: 5%;
+    }
+    .quote {
+        height: 20px;
+    }
+    .container {
+        height: 100px;
+        width: 100px;
+    }
+    .border {
+        height: 100px;
+        width: 100px;
+    }
+    #foreground_selection {
+        height: 250px;
+    }
+    #background_color_selection {
+        height: 280px;
+    }
+    #click_here {
+        font-size: 72%;
+    }
+    #short_text {
+        display: inline-block;
+    }
+    #long_text {
+        display: none;
+    }
+    #email_signup input{
+        font-size: 120%;
     }
 }
