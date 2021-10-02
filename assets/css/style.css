@@ -405,7 +405,7 @@ h1, h2 {
     display: none;
 }
 
-#quote_strip {
+.quote_strip {
     background-color: #C7BF94;
     width: 100%;
     height: 30px;
