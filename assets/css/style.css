@@ -384,7 +384,7 @@ h1, h2 {
     padding: 0;
 }
 
-#click_here {
+.click_here {
     text-align: center;
     margin: 0 auto;
     padding: 1.5% 0;
@@ -392,12 +392,12 @@ h1, h2 {
     font-size: 130%;
 }
 
-#click_here a {
+.click_here a {
     text-decoration: none;
     color: #808000;
 }
 
-#click_here a:hover {
+.click_here a:hover {
     border-bottom: 2px solid #080808;
 }
 
@@ -620,7 +620,7 @@ h1, h2 {
 #background_footer {
     background-color: #F2EDD7;
     width: 100%;
-    height: 100px;
+    height: 50px;
 
     display: flex;
     justify-content: center;
@@ -652,12 +652,12 @@ h1, h2 {
 
 #about_battens_bakery {
     width: 100%;
-
+    height: 30px;
     display: flex;
     justify-content: center;
     flex-flow: wrap;
-
-    padding-top: 1%;
+    
+    margin-top: 0.5%;
 }
 
 #about_battens_bakery li {
@@ -1872,9 +1872,109 @@ h1, h2 {
     #sign_up_heading{
         padding-top: 5%;
     }
+    #about_battens_bakery {
+        font-size: 65%;
+    }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 414px) {
+    #navigation {
+        font-size: 120%;
+    }
+    #navigation li {
+        padding: 3% 10px;
+    }
+    #title {
+        font-size: 180%;
+        margin: 0 auto;
+        height: 30px;
+    }
+    #afternoon_tea_foreground_images {
+        display: none;
+    }
+    #afternoon_tea_foreground_text {
+        width: 98%;
+        height: 490px;
+    }
+    #afternoon_tea_background {
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        flex-flow: wrap;
+    }
+    #afternoon_tea_text {
+        width: 90%;
+    }
+    #afternoon_tea_text p{
+        font-size: 90%;
+    }
+    .container {
+        height: 110px;
+        width: 110px;
+    }
+    .border {
+        height: 110px;
+        width: 110px;
+    }
+    #foreground_selection {
+        height: 280px;
+    }
+    #background_color_selection {
+        height: 300px;
+    }
+    .click_here {
+        font-size: 85%;
+    }
+    #about_left {
+        width: 100%;
+        float: none;
+        margin-left: 0;
+    }
+    #about_right {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+    }
+    #about_us_text{
+        font-size: 90%;
+        float: none;
+        width: 90%;
+        margin-top: 0;
+    }
+    #contact_us_button {
+        width: 60%;
+        margin-top: 5%;
+    }
+    #signature {
+        width: 60%;
+        height: 50px;
+    }
+    #signup_responsive {
+        right: 1%;
+        font-size: 90%;
+    }
+    #media_platforms {
+        display: none
+    }
+    .center {
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        flex-flow: wrap;
+    }
+    #cover_text h2 {
+        font-size: 100%;
+        letter-spacing: 2px;
+    }
+    #cover_text {
+        width: 60%;
+        height: 20%;
+        top: 65%;
+        padding-bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 375px) {
     #navigation {
         font-size: 110%;
     }
@@ -1927,6 +2027,9 @@ h1, h2 {
     }
     .about_us_text{
         font-size: 90%;
+        float: none;
+        width: 90%;
+        margin-top: 0;
     }
     #welcome {
         height: 50px;
@@ -1938,11 +2041,6 @@ h1, h2 {
     }
     #contact_us_button {
         width: 60%;
-    }
-    #aboutus_text {
-        float: none;
-        width: 90%;
-        margin-top: 0;
     }
     #foreground_color_about {
         display: flex;
@@ -2000,7 +2098,7 @@ h1, h2 {
     #background_color_selection {
         height: 280px;
     }
-    #click_here {
+    .click_here {
         font-size: 72%;
     }
     #short_text {
@@ -2011,5 +2109,34 @@ h1, h2 {
     }
     #email_signup input{
         font-size: 120%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        height: 90px;
+        width: 90px;
+    }
+    .border {
+        height: 90px;
+        width: 90px;
+    }
+    .click_here {
+        font-size: 60%;
+    }
+    #afternoon_tea_text p{
+        font-size: 85%;
+    }
+    #sign_up_heading h2 {
+        font-size: 120%;
+    }
+    .about_us_text{
+        font-size: 85%;
+    }
+    #contact_us_button {
+        margin-top: 1%;
+    }
+    #signup_responsive {
+       display: none;
     }
 }
