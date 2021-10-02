@@ -1950,8 +1950,7 @@ h1, h2 {
         height: 50px;
     }
     #signup_responsive {
-        right: 1%;
-        font-size: 90%;
+        display: none;
     }
     #media_platforms {
         display: none
@@ -1971,6 +1970,9 @@ h1, h2 {
         height: 20%;
         top: 65%;
         padding-bottom: 5%;
+    }
+    #welcome {
+        width: 250px;
     }
 }
 
@@ -2057,10 +2059,6 @@ h1, h2 {
     }
     #contact_us_button h2 {
         font-size: 110%;
-    }
-    #signup_responsive {
-        right: 1%;
-        font-size: 90%;
     }
     #media_platforms {
         display: none
