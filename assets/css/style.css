@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: Mate SC,sans-serif;
+    font-family: Mate SC, sans-serif;
     font-weight: 300;
     color: #080808;
 }
@@ -1184,9 +1184,11 @@ h1, h2 {
     font-size: 120%;
 }
 
+/*Bookings*/
+
 #bookings_background {
     width: 100%;
-    height:900px;
+    height: 1100px;
     background-color: #F2EDD7;
 
     padding-top: 1%;
@@ -1197,6 +1199,46 @@ h1, h2 {
     justify-content: space-around;
 }
 
+#booking_header {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    width: 80%;
+
+    border: 2px dashed white;
+    border-radius: 4px;
+
+    margin-left: 8%;
+}
+
+#booking_header h2 {
+    font-size: 200%;
+}
+
+#booking_image {
+    float: left;
+    width: 600px;
+
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+#contain_booking {
+    width: 500px;
+    height: 700px;
+}
+
+#contain_booking img {
+    width: 100%;
+    height: auto;
+
+    margin-top: 3%;
+    margin-left: 8%;
+
+    border: 2px dashed white;
+}
+
 #bookings_forground {
     width: 80%;
     height: 90%;
@@ -1204,7 +1246,7 @@ h1, h2 {
 }
 
 #circles_outer {
-    width: 50%;
+    width: 45%;
     height: 80%;
     float: right;
     margin-top: 5%;
@@ -1219,21 +1261,22 @@ h1, h2 {
 
 #circles_inner {
     width: 90%;
-    height: 25%;
+    height: 20%;
 
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    background-color: green;
 
-    margin-top: 5%;
+    margin-top: 1%;
     margin-bottom: 0;
 }
 
 #circle_left {
     height: 100px;
     width: 100px;
-    background-color: #808000;
+
+    border: 2px dashed white;
+    background-color: #F2EDD7;
     border-radius: 50%;
 
     margin-top: 5%;
@@ -1248,7 +1291,8 @@ h1, h2 {
 #circle_middle {
     height: 100px;
     width: 100px;
-    background-color: #808000;
+    border: 2px dashed white;
+    background-color: #F2EDD7;
     border-radius: 50%;
 
     margin-top: 5%;
@@ -1263,7 +1307,8 @@ h1, h2 {
 #circle_right {
     height: 100px;
     width: 100px;
-    background-color: #808000;
+    border: 2px dashed white;
+    background-color: #F2EDD7;
     border-radius: 50%;
 
     margin-top: 5%;
@@ -1276,23 +1321,49 @@ h1, h2 {
 }
 
 #booking_form {
-    background-color: red;
     height: 50%;
-    width: 90%;
-    padding-top: 2%;
-    padding-left: 5%;
+    width: 100%;
 }
 
-#booking_form label {
+.booking_form_elements label {
     font-size: 180%;
-    float: left;
 }
 
-#booking_form > input {
+.booking_form_elements > input {
+    height: 40px;
+    width: 100%;
+    font-size: 150%;
+    margin-top: 1%;
+    padding: 3px 3px;
+}
+
+.booking_form_elements_dt label {
+    font-size: 180%;
+}
+
+.booking_form_elements_dt > input {
     height: 40px;
     width: 200px;
-    background-color: blue;
-    font-size: 180%;
+    font-size: 150%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+#make_booking {
+    margin-top: 5%;
+    margin-left: 40%;
+}
+
+#make_booking input{
+    font-size: 150%;
+    padding: 5px 5px;
+
+    border: 2px solid #808000;
+    border-radius: 4px;
+}
+
+#make_booking input:hover{
+    cursor: pointer;
 }
 /* Media Queries */
 

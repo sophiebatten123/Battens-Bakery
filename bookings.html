@@ -65,21 +65,55 @@
     <section>
         <div id="bookings_background">
             <div id="bookings_forground">
+                <div id="booking_image">
+                    <div id="booking_header">
+                        <h2>Make a Booking</h2>
+                    </div>
+                    <div id="contain_booking">
+                         <img src="assets/images/bakery_image_booking2.jpeg" alt="An image of a pastery">
+                    </div>
+                </div>
                 <div id="circles_outer">
                     <div id="circles_inner">
                         <div id="circle_left"><h2><i class="far fa-clock"></i></h2></div>
                         <div id="circle_middle"><h2><i class="far fa-check-circle"></i></h2></div>
                         <div id="circle_right"><h2><i class="far fa-smile-beam"></i></h2></div>
                     </div>
+                    <div id="form">
                         <form action="#" method="POST" id="booking_form">
-
-                            <label for="first_name">First Name:</label>
-                            <input id="first_name" type="text" name="first_name">
-
-                            <label for="second_name">Second Name:</label>
-                            <input id="second_name" type="text" name="second_name">
-                            
+                            <div class="booking_form_elements">
+                                <label for="first_name">First Name:</label>
+                                <input id="first_name" type="text" name="first_name">
+                            </div>
+                            <div class="booking_form_elements">
+                                <label for="second_name">Second Name:</label>
+                                <input id="second_name" type="text" name="second_name">
+                            </div>
+                            <div class="booking_form_elements">
+                                <label for="email_address">Email Adress:</label>
+                                <input id="email_address" type="email" name="email_address">
+                            </div>
+                            <div class="booking_form_elements">
+                                <label for="contact_number">Contact Number:</label>
+                                <input id="contact_number" type="tel" name="contact_number">
+                            </div>
+                            <span class="booking_form_elements_dt">
+                                <label for="booking_date">Date:</label>
+                                <input id="booking_date" type="date" name="booking_date">
+                            </span>
+                            <span class="booking_form_elements_dt">
+                                <label for="booking_time">Time:</label>
+                                <input id="booking_time" type="time" name="booking_time">
+                            </span>
+                            <div class="booking_form_elements">
+                                <label for="number_of_people">Number of People <i class="fas fa-user-friends"></i> :</label>
+                                <input id="number_of_people" type="number" name="number_of_people" min="1" max="6">
+                            </div>
+                            <div id="make_booking">
+                                <input type="submit" name="sumbit_button" value="Book Now">
+                            </div>
                         </form>
+                    </div>
                  </div>
             </div>
         </div>
