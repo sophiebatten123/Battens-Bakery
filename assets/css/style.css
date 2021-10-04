@@ -708,7 +708,7 @@ h1, h2 {
 
 #menu_forground {
     background-color: #F2EDD7;
-    width: 90%;
+    width: 100%;
     height: 1800px;
     margin: 0 auto;
 }
@@ -728,28 +728,10 @@ h1, h2 {
     padding-top: 1%;
 }
 
-#glasses_left {
-    float: left;
-}
-
-#glasses_right {
-    float: right;
-}
-
-#glasses_icons {
-    font-size: 200%;
-}
-
-#glasses_icons h2 {
-    display: inline;
-    padding: 0 10%;
-    color: #808000;
-}
-
 #classic_afternoon_tea {
     background-color: white;
     border: 2px dashed #808000;
-    width: 60%;
+    width: 80%;
     height: 25%;
     margin: 1% auto;
 }
@@ -757,7 +739,7 @@ h1, h2 {
 #premium_afternoon_tea {
     background-color: white;
     border: 2px dashed #808000;
-    width: 60%;
+    width: 80%;
     height: 35%;
     margin: 1% auto;
 }
@@ -765,7 +747,7 @@ h1, h2 {
 #extra_afternoon_tea {
     background-color: white;
     border: 2px dashed #808000;
-    width: 60%;
+    width: 80%;
     height: 14%;
     margin: 1% auto;
 }
@@ -1186,19 +1168,78 @@ h1, h2 {
 
 /*Bookings*/
 
+#heading_bookings {
+    height: 120px;
+    width: 100%;
+    background-color: #F2EDD7;
+
+    border-bottom: 2px dashed #808000;
+}
+
+#heading_bookings {
+    text-align: center;
+    padding-top: 1%;
+}
+
+#heading_bookings h2 {
+    font-size: 220%;
+}
+
+#heading_bookings p {
+    font-size: 180%;
+    color: #808000;
+    padding-top: 1%;
+}
+
+#heading_bookings a {
+    text-decoration: none;
+    color: #808000;
+}
+
+#heading_bookings a:hover {
+    border-bottom: 1px solid #808000;
+    cursor: pointer;
+}
+
 #bookings_background {
     width: 100%;
-    height: 900px;
+    height: 750px;
     background-color: #F2EDD7;
 }
 
+#booking_images {
+    float: left;
+    width: 27%;
+    height: 420px;
+
+    margin-left: 1%;
+
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+#bookings_container {
+    width: 500px;
+    height: 715px;
+    border: 5px solid white;
+
+    margin-top: 2%;
+}
+
+#bookings_container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 #bookings_forground {
-    width: 50%;
-    height: 85%;
-    background-color: #C7BF94;
+    width: 70%;
+    height: 94%;
+    background-color: white;
 
     float: right;
-    margin-top: 1%;
+    margin-top: 0.5%;
     margin-right: 1%;
 
     display: flex;
@@ -1210,9 +1251,9 @@ h1, h2 {
 
 #circles_outer {
     width: 95%;
-    height: 90%;
+    height: 97%;
 
-    border: 2px dashed white;
+    border: 2px dashed #808000;
     border-radius: 4px;
 
     background-color: #F2EDD7;
@@ -1287,6 +1328,8 @@ h1, h2 {
 
     width: 100%;
     height: 100%;
+
+    margin-top: 1%;
 }
 
 #booking_form {
@@ -1300,9 +1343,10 @@ h1, h2 {
 }
 
 .booking_form_elements > input {
-    height: 40px;
+    height: 30px;
     width: 95%;
     font-size: 140%;
+    font-family: Mate SC, sans-serif;
     margin-top: 1%;
     padding: 3px 3px;
 }
@@ -1315,7 +1359,8 @@ h1, h2 {
     height: 40px;
     width: 35%;
     font-size: 140%;
-    margin-top: 3%;
+    font-family: Mate SC, sans-serif;
+    margin-top: 2%;
     margin-bottom: 2%;
 }
 
@@ -1329,6 +1374,7 @@ h1, h2 {
 #make_booking input{
     font-size: 150%;
     padding: 5px 5px;
+    font-family: Mate SC, sans-serif;
 
     border: 2px solid #808000;
     border-radius: 4px;
@@ -1337,6 +1383,12 @@ h1, h2 {
 #make_booking input:hover{
     cursor: pointer;
 }
+
+#small_screen_bookings {
+    display: none;
+}
+
+
 /* Media Queries */
 
 /* For large screens from size 1900px and down */
@@ -1488,6 +1540,47 @@ h1, h2 {
     }
 }
 
+@media screen and (max-width: 1340px) {
+    #navigation {
+        display: inline;
+        text-align: center;
+        font-size: 200%;
+    }
+    #navigation_style {
+        height: 30%;
+        width: 100%;
+    }
+    #signup {
+        top: 50%;
+        right: 5%;
+    }
+    #signup h2 {
+        letter-spacing: 2px;
+    }
+    #media_platforms {
+        top: 50%;
+        left: 3%;
+    }
+
+    #media_platforms i {
+        letter-spacing: 10px;
+    }
+    #main_image_outer {
+        height: 300px;
+    }
+    #cover_text {
+        font-size: 130%;
+        height: 30%;
+    }
+    #cover_text h2 {
+        padding: 1%;
+    }
+    #quote h2 {
+        font-size: 130%;
+        font-weight: bold;
+    }
+}
+
 @media screen and (max-width: 1230px) {
     .border {
         height: 230px;
@@ -1558,6 +1651,18 @@ h1, h2 {
     #about_us_img2 {
         width: 220px;
         margin-top: 25%;
+    }
+    #large_screen_bookings {
+        display: none;
+    }
+    #small_screen_bookings {
+        display: inline;
+    }
+    #bookings_forground {
+        height: 94%;
+    }
+    #bookings_background {
+        height: 750px;
     }
 }
 
@@ -1635,6 +1740,78 @@ h1, h2 {
     }
 }
 
+@media screen and (max-width: 960px) {
+    #navigation {
+        display: inline;
+        text-align: center;
+        font-size: 120%;
+    }
+    #navigation_style {
+        height: 30%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #media_platforms {
+        left: 5%;
+        top: 30%;
+        width: 10%;
+    }
+    #media_platforms i {
+        font-size: 120%;
+    }
+    #media_platforms li {
+        display: inline;
+    }
+    #signup {
+        display: none;
+    }
+    #signup_responsive {
+        display: block;
+        font-size: 120%;
+        color: #080808;
+        text-decoration: none;
+        position: absolute;
+        top: 30%;
+        right: 10%;
+    }
+    #title {
+        font-size: 250%;
+        padding-top: 7%;
+    }
+    #cover_text h2 {
+        font-size: 110%;
+        font-weight: bold;
+        padding: 6% 2%;
+    }
+    #circle_left {
+        width: 80px;
+        height: 80px;
+    }
+    #circle_middle {
+        width: 80px;
+        height: 80px;
+    }
+    #circle_right {
+        width: 80px;
+        height: 80px;
+    }
+    #circle_left h2 {
+        padding-top: 20%;
+        padding-left: 25%;
+        font-size: 250%;
+    }
+    #circle_middle h2 {
+        padding-top: 20%;
+        padding-left: 25%;
+        font-size: 250%;
+    }
+    #circle_right h2 {
+        padding-top: 20%;
+        padding-left: 25%;
+        font-size: 250%;
+    }
+}
+
 @media screen and (max-width: 916px) {
     .border {
         height: 230px;
@@ -1689,10 +1866,23 @@ h1, h2 {
     }
     #about_us_img2 {
         width: 250px;
-        margin-top: 45%;
+        padding-top: 45%;
+    }
+    #bookings_background {
+        display: flex;
+        justify-content: center;
+        flex-flow: wrap;
+        height: 790px;
+    }
+    #bookings_forground {
+        width: 90%;
+        float: none;
+    }
+    #circles_inner{
+        padding-top: 5px;
     }
 }
-   
+
 @media screen and (max-width: 843px) {
     .border {
         height: 200px;
@@ -1759,94 +1949,6 @@ h1, h2 {
     #aboutus_text {
         float: none;
         width: 90%;
-    }
-}
-
-/* For larger to medium screens from size 1340px wide and down */
-
-@media screen and (max-width: 1340px) {
-    #navigation {
-        display: inline;
-        text-align: center;
-        font-size: 200%;
-    }
-    #navigation_style {
-        height: 30%;
-        width: 100%;
-    }
-    #signup {
-        top: 50%;
-        right: 5%;
-    }
-    #signup h2 {
-        letter-spacing: 2px;
-    }
-    #media_platforms {
-        top: 50%;
-        left: 3%;
-    }
-
-    #media_platforms i {
-        letter-spacing: 10px;
-    }
-    #main_image_outer {
-        height: 300px;
-    }
-    #cover_text {
-        font-size: 130%;
-        height: 30%;
-    }
-    #cover_text h2 {
-        padding: 1%;
-    }
-    #quote h2 {
-        font-size: 130%;
-        font-weight: bold;
-    }
-}
-
-@media screen and (max-width: 960px) {
-    #navigation {
-        display: inline;
-        text-align: center;
-        font-size: 120%;
-    }
-    #navigation_style {
-        height: 30%;
-        width: 100%;
-        margin: 0 auto;
-    }
-    #media_platforms {
-        left: 5%;
-        top: 30%;
-        width: 10%;
-    }
-    #media_platforms i {
-        font-size: 120%;
-    }
-    #media_platforms li {
-        display: inline;
-    }
-    #signup {
-        display: none;
-    }
-    #signup_responsive {
-        display: block;
-        font-size: 120%;
-        color: #080808;
-        text-decoration: none;
-        position: absolute;
-        top: 30%;
-        right: 10%;
-    }
-    #title {
-        font-size: 250%;
-        padding-top: 7%;
-    }
-    #cover_text h2 {
-        font-size: 110%;
-        font-weight: bold;
-        padding: 6% 2%;
     }
 }
 

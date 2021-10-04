@@ -63,16 +63,17 @@
         </div>
     </header>
     <section>
+        <div id="heading_bookings">
+            <h2> Reserve a Table for Afternoon Tea </h2>
+            <p><a href="contactus.html">Contact us</a> for more information </p>
+        </div>
         <div id="bookings_background">
+            <div id="booking_images">
+                <div id="bookings_container">
+                    <img src="assets/images/afternoon8.jpeg" alt="An image of two women having afternoon tea">
+                </div>
+            </div>
             <div id="bookings_forground">
-                <!--<div id="booking_image">
-                    <div id="booking_header">
-                        <h2>Make a Booking</h2>
-                    </div>
-                    <div id="contain_booking">
-                         <img src="assets/images/bakery_image_booking2.jpeg" alt="An image of a pastery">
-                    </div>
-                </div> -->
                 <div id="circles_outer">
                     <div id="circles_inner">
                         <div id="circle_left"><h2><i class="far fa-clock"></i></h2></div>
@@ -97,14 +98,22 @@
                                 <label for="contact_number">Contact Number:</label>
                                 <input id="contact_number" type="tel" name="contact_number">
                             </div>
-                            <span class="booking_form_elements_dt">
+                            <span class="booking_form_elements_dt" id="large_screen_bookings">
                                 <label for="booking_date">Date:</label>
                                 <input id="booking_date" type="date" name="booking_date">
                             </span>
-                            <span class="booking_form_elements_dt">
+                            <span class="booking_form_elements_dt" id="large_screen_bookings">
                                 <label for="booking_time">Time:</label>
                                 <input id="booking_time" type="time" name="booking_time">
                             </span>
+                            <div class="booking_form_elements" id="small_screen_bookings">
+                                <label for="booking_date">Date:</label>
+                                <input id="booking_date" type="date" name="booking_date">
+                            </div>
+                            <div class="booking_form_elements" id="small_screen_bookings">
+                                <label for="booking_time">Time:</label>
+                                <input id="booking_time" type="time" name="booking_time">
+                            </div>
                             <div class="booking_form_elements">
                                 <label for="number_of_people">Number of People <i class="fas fa-user-friends"></i> :</label>
                                 <input id="number_of_people" type="number" name="number_of_people" min="1" max="6">
