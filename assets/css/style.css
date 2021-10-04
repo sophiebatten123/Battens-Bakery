@@ -2119,6 +2119,57 @@ h1, h2 {
     #welcome {
         width: 250px;
     }
+    #classic_afternoon_tea {
+        width: 98%;
+        margin: 5% auto;
+    }
+    #premium_afternoon_tea {
+        width: 98%;
+        height: 38%;
+        margin: 5% auto;
+    }
+    #extra_afternoon_tea {
+        width: 98%;
+        margin: 5% auto;
+    }
+    #menu_header h2{
+        font-size: 150%;
+        padding-top: 5%;
+    }
+    #menu_header p{
+        font-size: 130%;
+    }
+    #menu_background {
+        height: 1800px;
+    }
+    #menu_button {
+        margin-top: 18%;
+    }
+    #booking_images {
+        display: none;
+    }
+    #bookings_container {
+        display: none;
+    }
+    #bookings_forground {
+        margin-top: 5%;
+    }
+    #heading_bookings h2 {
+        font-size: 150%;
+    }
+    #heading_bookings p {
+        font-size: 150%;
+    }
+    #long_bookings_text {
+        display: none;
+    }
+    #short_bookings_text {
+        display: inline;
+    }
+    #heading_bookings {
+        padding-top: 20px;
+        height: 100px;
+    }
 }
 
 @media screen and (max-width: 375px) {
