@@ -269,31 +269,31 @@ h1, h2 {
 }
 
 #contact_us_button {
-    width: 30%;
+    width: 20%;
     height: 30px;
 
     margin: 0 auto;
     border: 2px solid #080808;
     border-radius: 6px;
-    padding: 5px;
+    padding: 10px;
 
     background-color: white;
 
     display: flex;
     justify-content: center;
     flex-flow: wrap;  
+
+    font-size: 170%;
 }
 
 #contact_us_button a {
     text-decoration: none;
+    color: #080808;
 }
 
-#contact_us_button h2 {
-    font-size: 180%;
-    float: left;
-    text-align: center;
-    background-color: white;
-
+#contact_us_button:hover {
+    background-color: #C7BF94;
+    cursor: pointer;
 }
 
 /* Selection of cakes strip */
@@ -451,22 +451,31 @@ h1, h2 {
 }
 
 #afternoon_tea_button {
+    width: 20%;
+    height: 30px;
+
+    margin: 0 auto;
     border: 2px solid #080808;
     border-radius: 6px;
-    padding: 5px;
+    padding: 10px;
 
     background-color: white;
-    margin-bottom: 5%;
+
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;  
+
+    font-size: 170%;
 }
 
 #afternoon_tea_button a {
     text-decoration: none;
+    color: #080808;
 }
 
-#afternoon_tea_button h2 {
-    font-size: 180%;
-    text-align: center;
-    background-color: white;
+#afternoon_tea_button:hover {
+    background-color: #C7BF94;
+    cursor: pointer;
 }
 
 #afternoon_tea_foreground_images {
@@ -600,19 +609,9 @@ h1, h2 {
     margin-top: 5%;
 }
 
-#sumbit_button input {
-    background-color: white;
-    width: 30%;
-    font-size: 180%;
-}
-
-#sumbit_button :hover {
+#submit:hover {
+    background-color: #C7BF94;
     cursor: pointer;
-}
-
-#letter_icons {
-    width: 100%;
-    font-size: 180%;
 }
 
 /* Footer */
@@ -637,8 +636,9 @@ h1, h2 {
     height:40px;
     
     display: flex;
-    justify-content: right;
+    justify-content: center;
     flex-flow: wrap;
+    
 
     padding-top: 0.5%;
 }
@@ -646,8 +646,7 @@ h1, h2 {
 #footer_media i {
     font-size: 200%;
     color: #080808;
-    letter-spacing: 20px;
-    
+    letter-spacing: 30px;
 }
 
 #about_battens_bakery {
@@ -786,7 +785,7 @@ h1, h2 {
     margin: 3% auto;
     
     padding: 5px;
-    width: 50%;
+    width: 30%;
     border: 2px solid #080808;
     border-radius: 6px;
 
@@ -795,10 +794,13 @@ h1, h2 {
     display: flex;
     justify-content: center;
     flex-flow: wrap;
+
+    font-size: 170%;
 }
 
 #menu_button a {
     text-decoration: none;
+    color: #080808;
 }
 
 #menu_button:hover {
@@ -814,7 +816,7 @@ h1, h2 {
 }
 
 #menu_download {    
-    width: 50%;
+    width: 30%;
     border: 2px solid #080808;
     border-radius: 6px;
 
@@ -826,10 +828,14 @@ h1, h2 {
     display: flex;
     justify-content: center;
     flex-flow: wrap;
+
+    font-size: 170%;
+    text-align: center;
 }
 
 #menu_download a {
    text-decoration: none;
+   color: #080808;
 }
 
 #menu_download h2 {
@@ -893,7 +899,7 @@ h1, h2 {
 }
 
 .border_recipes {
-    width:33.333%;
+    width: 33.33%;
     height: 100%;
     box-sizing: border-box;
     float:left;
@@ -1169,7 +1175,7 @@ h1, h2 {
 /*Bookings*/
 
 #heading_bookings {
-    height: 120px;
+    height: 150px;
     width: 100%;
     background-color: #F2EDD7;
 
@@ -1372,16 +1378,18 @@ h1, h2 {
 }
 
 #make_booking input{
-    font-size: 150%;
+    width: 30%;
+    font-size: 170%;
     padding: 5px 5px;
     font-family: Mate SC, sans-serif;
 
-    border: 2px solid #808000;
+    border: 2px solid #080808;
     border-radius: 4px;
 }
 
 #make_booking input:hover{
     cursor: pointer;
+    background-color: #C7BF94;
 }
 
 #small_screen_bookings {
@@ -1759,7 +1767,7 @@ h1, h2 {
     #media_platforms i {
         font-size: 120%;
     }
-    #media_platforms li {
+    #forms li {
         display: inline;
     }
     #signup {
@@ -1950,6 +1958,9 @@ h1, h2 {
         float: none;
         width: 90%;
     }
+    .border_recipes {
+        width:50%;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -2018,7 +2029,36 @@ h1, h2 {
         padding-top: 5%;
     }
     #about_battens_bakery {
-        font-size: 65%;
+        font-size: 70%;
+    }
+    #about_battens_bakery {
+        margin-top: 4%;
+    }
+    #footer_media {
+        font-size: 80%;
+        margin-top: 2%;
+        float: none;
+    }
+    #menu_button {
+        width: 80%;
+
+        font-size: 150%;
+    }
+    #menu_download {
+        width: 80%;
+
+        font-size: 150%;
+    }
+    #contact_us_button {
+        height: 30px;
+        padding: 2px;
+
+        font-size: 150%;
+    }
+    #afternoon_tea_button {
+        font-size: 150%;
+        width: 60%;
+        height: 25px;
     }
 }
 
@@ -2170,64 +2210,31 @@ h1, h2 {
         padding-top: 20px;
         height: 100px;
     }
+    #heading_recipes h2 {
+        font-size: 150%;
+    }
+    .border_recipes {
+        width:70%;
+        float: none;
+        margin: 0 auto;
+    }
+    .recipe_background {
+        width: 100%;
+        height: 900px;
+        background-color: #F2EDD7;
+    }
 }
 
 @media screen and (max-width: 375px) {
-    #navigation {
-        font-size: 110%;
-    }
     #navigation li {
         padding: 3% 5px;
-    }
-    #title {
-        font-size: 150%;
-        margin: 0 auto;
-        height: 30px;
-    }
-    #afternoon_tea_img1 img {
-        display: none;
-    }
-    #afternoon_tea_foreground_images {
-        display: none;
     }
     #afternoon_tea_foreground_text {
         width: 100%;
         height: 490px;
     }
-    #afternoon_tea_background {
-        height: 500px;
-    }
-    #afternoon_tea_text {
-        width: 90%;
-    }
-    #afternoon_tea_text p{
-        font-size: 90%;
-    }
     #about_us_foreground_images {
        display: none;
-    }
-    #afternoon_tea_button {
-        height: 20px;
-        margin-top: 4%;
-    }
-    #afternoon_tea_button h2 {
-        font-size: 110%;
-    }
-    #about_left {
-        width: 100%;
-        float: none;
-        margin-left: 0;
-    }
-    #about_right {
-        width: 100%;
-        float: none;
-        margin-right: 0;
-    }
-    .about_us_text{
-        font-size: 90%;
-        float: none;
-        width: 90%;
-        margin-top: 0;
     }
     #welcome {
         height: 50px;
@@ -2241,29 +2248,10 @@ h1, h2 {
         width: 60%;
     }
     #foreground_color_about {
-        display: flex;
-        justify-content: center;
-        flex-flow: wrap;
-        height: 450px;
-    }
-    #background_color {
         height: 500px;
     }
-    #contact_us_button {
-        margin-top: 3%;
-        width: 70%;
-    }
-    #contact_us_button h2 {
-        font-size: 110%;
-    }
-    #media_platforms {
-        display: none
-    }
-    .center {
-        height: 70px;
-        display: flex;
-        justify-content: center;
-        flex-flow: wrap;
+    #background_color {
+        height: 550px;
     }
     #cover_text h2 {
         font-size: 90%;
@@ -2326,9 +2314,6 @@ h1, h2 {
     }
     .about_us_text{
         font-size: 85%;
-    }
-    #contact_us_button {
-        margin-top: 1%;
     }
     #signup_responsive {
        display: none;
