@@ -33,7 +33,7 @@ The site itself is fully responsive and deisgned in a simplistic and easy to nav
 
 ## Colour Scheme
 
-![Colour Scheme](assets/images/colourpalette.png)
+![Colour Scheme](assets/images/colourpalette.PNG)
 
 - The sites primary colours are green, cream, black and white. The image above displays the original colour scheme which was chosen for the website. It uses a wide range of pastel shades to create a soft texture to the website; whilst also ensuring that text is clear and readable. 
 
