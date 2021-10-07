@@ -63,22 +63,22 @@ The site itself is fully responsive and deisgned in a simplistic and easy to nav
 
 [Index-Page](assets/images/main_web_template.PNG)
 
-[Menu-Page] ()
-
-[Bookings-Page] ()
-
-[Recipes-Page] ()
-
-[Recipe-Steps-Pages] ()
-
-## Mobile Wireframes
- 
-[Index-Page](assets/images/main_web_template.PNG)
-
 [Menu-Page](assets/images/menu_web_template.PNG)
 
 [Bookings-Page](assets/images/bookings_web_template.PNG)
 
 [Recipes-Page](assets/images/recipes_web_template.PNG)
 
-[Recipe-Steps-Pages]()
+[Recipe-Steps-Pages](assets/images/recipessteps_web_template.PNG)
+
+## Mobile Wireframes
+ 
+[Index-Page](assets/images/main_phone_template.PNG)
+
+[Menu-Page](assets/images/menu_phone_template.PNG)
+
+[Bookings-Page](assets/images/bookings_phone_template.PNG)
+
+[Recipes-Page](assets/images/recipes_phone_template.PNG)
+
+[Recipe-Steps-Pages](assets/images/recipessteps_phone_template.PNG)
