@@ -440,9 +440,11 @@ h1, h2 {
 }
 
 #afternoon_tea_text {
-    width: 80%;
-    height: 300px;
+    width: 95%;
+    height: 250px;
     text-align: center;
+    font-size: 120%;
+    padding-top: 30px;
 }
 
 #afternoon_tea_button {

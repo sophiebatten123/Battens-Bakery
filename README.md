@@ -1,4 +1,4 @@
-# Batten's Bakery
+erv# Batten's Bakery
 
 [Live Link]()
 
@@ -117,7 +117,7 @@ Some alterations were made from the original wireframe designs to improve User E
 
 # Join Us Section
 
-![Join-Us]()
+![Join-Us](assets/images/joinus_screenshot.PNG)
 
 ## Afternoon Tea
 
@@ -128,7 +128,7 @@ Some alterations were made from the original wireframe designs to improve User E
 
 # Newsletter Section
 
-![Newsletter-Sign-Up]()
+![Newsletter-Sign-Up](assets/images/newsletter_screenshot.PNG)
 
 ## Sign Up
 
