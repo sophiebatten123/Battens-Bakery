@@ -45,7 +45,7 @@ The site itself is fully responsive and deisgned in a simplistic and easy to nav
 
 ![Typography](assets/images/heading.PNG)
 
-![Typography](assets/images/writing.PNG)
+![Typography](assets/images/welcome_text.PNG)
 
 - The main font used throughout the whole wesbite was 'Mate SC' with Sans Serif as a fall back font in the rare instance that the font is incorrectly imported onto the site. Alongside this font some hand written text was written to create a more personalised feel to the website whilst also contrasting nicely against the hard edges of 'Mate SC'. Both of these text styles are easy to read and suited the style of the website.
 
