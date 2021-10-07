@@ -442,12 +442,7 @@ h1, h2 {
 #afternoon_tea_text {
     width: 80%;
     height: 300px;
-}
-
-#afternoon_tea_text p {
     text-align: center;
-    font-size: 120%;
-    padding-top: 5%;
 }
 
 #afternoon_tea_button {
@@ -1469,10 +1464,6 @@ h1, h2 {
     .background_recipes {
         height: 500px;
     }
-    #afternoon_tea_text p {
-        padding-top: 2%;
-        font-size: 110%;
-    }
 }
 
 @media screen and (max-width: 1500px) {
@@ -1489,10 +1480,6 @@ h1, h2 {
          height: 230px;
          width: 230px;
      }
-     #afternoon_tea_text p {
-        padding-top: 3%;
-        font-size: 105%;
-    }
 }
 
 @media screen and (max-width: 1400px) {
@@ -1537,10 +1524,6 @@ h1, h2 {
     }
     #sign_up_heading {
         padding-top: 1%;
-    }
-    #afternoon_tea_text p {
-        font-size: 110%;
-        padding-top: 2%;
     }
     #about_us_img2 {
         width: 250px;
@@ -1648,10 +1631,6 @@ h1, h2 {
     }
     #afternoon_tea_img2 img {
         display: none;
-    }
-    #afternoon_tea_text p {
-        padding-top: 3%;
-        font-size: 100%;
     }
     .about_us_text {
         font-size: 105%;
@@ -1865,10 +1844,6 @@ h1, h2 {
     #afternoon_tea_img1 img {
         margin-top: 20%;
     }
-    #afternoon_tea_text p {
-        padding-top: 3%;
-        font-size: 91%;
-    }
     #about_bakery h2 {
         font-size: 100%;
     }
@@ -1967,9 +1942,6 @@ h1, h2 {
     #afternoon_tea_img1 img {
        margin-right: 0;
        margin-left: 0;
-    }
-    #afternoon_tea_text {
-        width: 95%;
     }
     #afternoon_tea_button {
         height: 30px;
@@ -2086,12 +2058,6 @@ h1, h2 {
         display: flex;
         justify-content: center;
         flex-flow: wrap;
-    }
-    #afternoon_tea_text {
-        width: 90%;
-    }
-    #afternoon_tea_text p{
-        font-size: 90%;
     }
     .container {
         height: 110px;
@@ -2305,9 +2271,6 @@ h1, h2 {
     }
     .click_here {
         font-size: 60%;
-    }
-    #afternoon_tea_text p{
-        font-size: 85%;
     }
     #sign_up_heading h2 {
         font-size: 120%;
