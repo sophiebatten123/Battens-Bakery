@@ -99,7 +99,7 @@ Some alterations were made from the original wireframe designs to improve User E
 
 # About Us Section
 
-![About-Us]()
+![About-Us](assets/images/about_us.PNG)
 
 ## Welcome
 
@@ -108,7 +108,9 @@ Some alterations were made from the original wireframe designs to improve User E
 
 # Customer Favourites Section
 
-![Customer-Favourites]()
+![Customer-Favourites](assets/images/customer_favs.PNG)
+
+## Cake Strip
 
 - The Customer Favourites Section is eye catching to the user and contains a strip of delicious cakes that are individually linked to the step by step recipe guide.
 - Users should be drawn to this section of the website due to the vibrant use of colour against a nuetral background. This should encourage then to either want to try the cakes fresh from the bakery or bake their own at home.
@@ -117,20 +119,26 @@ Some alterations were made from the original wireframe designs to improve User E
 
 ![Join-Us]()
 
+## Afternoon Tea
+
 - The Join Us Section aims to entice the reader to book in for afternoon tea at Batten's Bakery. It contains information about what there is to offer along with testomonials from customers.
 - Users are then given the option to reserve a table using a linked button to the booking page.
 - Images have been carefully selected to blend with the colours of the website whilst also being relevant to the section and encouraging the user to book. 
 
 
-# Newsletter Sign Up Section
+# Newsletter Section
 
 ![Newsletter-Sign-Up]()
+
+## Sign Up
 
 - The Newsletter Section allows the user to sign up to Batten's Bakery giving then new recipes and discounts to afternoon tea straight to their imbox. This section is responsible for enticing the user to revisit the site in the future hence why it features on all of the main pages on the website.
 
 # Footer Section
 
 ![Footer]()
+
+## Social Media Platforms
 
 - The Footer Section includes links to the relevant social media platforms. These links open in a new tab which allows easy navigation for the user and prevents then leaving the site.
 - This is a valuable section of the website as it allows the user to view more testomonials and information about the bakery.
