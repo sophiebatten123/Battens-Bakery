@@ -59,24 +59,26 @@ The site itself is fully responsive and deisgned in a simplistic and easy to nav
 
 # Wireframes
 
+## Desktop Wireframes
+
 [Index-Page](assets/images/main_web_template.PNG)
 
-![Menu-Page] ()
+[Menu-Page] ()
 
-![Bookings-Page] ()
+[Bookings-Page] ()
 
-![Recipes-Page] ()
+[Recipes-Page] ()
 
-![Victoria-Sponge-Page] ()
+[Recipe-Steps-Pages] ()
 
-![Vanilla-Cupcakes-Page] ()
-
-![Toffee-Crisp-Page] ()
-
-![Tiramisu-Page] ()
-
-![Berry-Pie-Page] ()
-
-![Molton-Chocolate-Cake-Page] ()
-
+## Mobile Wireframes
  
+[Index-Page](assets/images/main_web_template.PNG)
+
+[Menu-Page](assets/images/menu_web_template.PNG)
+
+[Bookings-Page](assets/images/bookings_web_template.PNG)
+
+[Recipes-Page](assets/images/recipes_web_template.PNG)
+
+[Recipe-Steps-Pages]()
