@@ -51,7 +51,9 @@ The site itself is fully responsive and deisgned in a simplistic and easy to nav
 
 ## Imagery
 
-![Imagery]()
+![Imagery](assets/images/image1.PNG)
+
+![Imagery](assets/images/image2.PNG)
 
 - The images on the website were carefuly and deliberately choosen to blend with the colour scheme of the website. The intial large heading image captures the users attention whilst also working in unison with the website. Images on the recipes pages were chosen to entice the user and therefore look delicious!
 
