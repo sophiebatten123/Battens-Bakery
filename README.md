@@ -59,7 +59,7 @@ The site itself is fully responsive and deisgned in a simplistic and easy to nav
 
 # Wireframes
 
-![Index-Page] (assets/images/main_web_template.PNG)
+![Index-Page](assets/images/main_web_template.PNG)
 
 ![Menu-Page] ()
 
