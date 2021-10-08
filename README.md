@@ -136,7 +136,7 @@ Some alterations were made from the original wireframe designs to improve User E
 
 # Footer Section
 
-![Footer]()
+![Footer](assets/images/footer_section.PNG)
 
 ## Social Media Platforms
 
