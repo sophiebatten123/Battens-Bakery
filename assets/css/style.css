@@ -640,14 +640,23 @@ h1, h2 {
 #footer_media i {
     font-size: 200%;
     color: #080808;
-    letter-spacing: 30px;
+    letter-spacing: 10px;
+}
+
+.contact_us > h3 {
+    font-size: 100%;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.contact_us > p {
+    font-size: 100%;
+    padding-left: 10px;
+    padding-top: 2px;
 }
 
 .contact_us {
-    display: inline-block;
-    padding-left: 150px;
-    padding-top: 5px;
-    font-size: 150%;
+float: left;
 }
 
 /* Menu */
@@ -1894,6 +1903,25 @@ h1, h2 {
     .border_recipes {
         width:50%;
     }
+    #footer_media i {
+        letter-spacing: 3px;
+        font-size: 180%;
+        padding-top: 20px;
+    }
+    .contact_us > h3 {
+        font-size: 120%;
+        padding-top: 1px;
+    }
+    .contact_us > p{
+        font-size: 120%;
+        padding-top: 1px;
+    }
+    .contact_us {
+        float: none;
+    }
+    #background_footer {
+        height: 180px;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -1901,13 +1929,8 @@ h1, h2 {
        margin-right: 0;
        margin-left: 0;
     }
-    #afternoon_tea_button {
-        height: 30px;
-        margin-top: 4%;
-        margin-bottom: 4%;
-    }
     #afternoon_tea_background {
-        height: 500px;
+        height: 550px;
     }
     #afternoon_tea_foreground_text {
         height: 490px;
@@ -1964,11 +1987,6 @@ h1, h2 {
     #about_battens_bakery {
         margin-top: 4%;
     }
-    #footer_media {
-        font-size: 80%;
-        margin-top: 2%;
-        float: none;
-    }
     #menu_button {
         width: 80%;
 
@@ -1976,7 +1994,6 @@ h1, h2 {
     }
     #menu_download {
         width: 80%;
-
         font-size: 150%;
     }
     #contact_us_button {
@@ -1989,6 +2006,7 @@ h1, h2 {
         font-size: 150%;
         width: 60%;
         height: 25px;
+        margin-top: 40%;
     }
 }
 
@@ -2009,13 +2027,7 @@ h1, h2 {
     }
     #afternoon_tea_foreground_text {
         width: 98%;
-        height: 490px;
-    }
-    #afternoon_tea_background {
-        height: 500px;
-        display: flex;
-        justify-content: center;
-        flex-flow: wrap;
+        height: 550px;
     }
     .container {
         height: 110px;
@@ -2030,6 +2042,12 @@ h1, h2 {
     }
     #background_color_selection {
         height: 300px;
+    }
+    #background_color {
+        height: 680px;
+    }
+    #foreground_color_about {
+        height: 630px;
     }
     .click_here {
         font-size: 85%;
@@ -2147,15 +2165,14 @@ h1, h2 {
         height: 900px;
         background-color: #F2EDD7;
     }
+    #background_footer {
+        height: 200px;
+    }
 }
 
 @media screen and (max-width: 375px) {
     #navigation li {
         padding: 3% 5px;
-    }
-    #afternoon_tea_foreground_text {
-        width: 100%;
-        height: 490px;
     }
     #about_us_foreground_images {
        display: none;
@@ -2170,12 +2187,6 @@ h1, h2 {
     }
     #contact_us_button {
         width: 60%;
-    }
-    #foreground_color_about {
-        height: 500px;
-    }
-    #background_color {
-        height: 550px;
     }
     #cover_text h2 {
         font-size: 90%;
@@ -2200,9 +2211,6 @@ h1, h2 {
     }
     #foreground_selection {
         height: 250px;
-    }
-    #background_color_selection {
-        height: 280px;
     }
     .click_here {
         font-size: 72%;
