@@ -656,7 +656,7 @@ h1, h2 {
 }
 
 .contact_us {
-float: left;
+    float: left;
 }
 
 /* Menu */
@@ -1903,6 +1903,9 @@ float: left;
     .border_recipes {
         width:50%;
     }
+    #footer_media{
+        width:35%;
+    }
     #footer_media i {
         letter-spacing: 3px;
         font-size: 180%;
@@ -1910,11 +1913,12 @@ float: left;
     }
     .contact_us > h3 {
         font-size: 120%;
-        padding-top: 1px;
+        padding-top: 5px;
     }
     .contact_us > p{
         font-size: 120%;
-        padding-top: 1px;
+        padding-top: 5px;
+        padding-right: 2px;
     }
     .contact_us {
         float: none;
@@ -1930,10 +1934,16 @@ float: left;
        margin-left: 0;
     }
     #afternoon_tea_background {
-        height: 550px;
+        height: 480px;
+        display: flex;
+        justify-content: center;
+        flex-flow: wrap;
+    }
+    #afternoon_tea_text{
+        font-size:95%;
     }
     #afternoon_tea_foreground_text {
-        height: 490px;
+        height: 460px;
     }
     #afternoon_tea_foreground_images {
         height: 490px;
@@ -2006,7 +2016,10 @@ float: left;
         font-size: 150%;
         width: 60%;
         height: 25px;
-        margin-top: 40%;
+        margin-top: 10%;
+    }
+    #make_booking input{
+        width:50%;
     }
 }
 
@@ -2027,7 +2040,6 @@ float: left;
     }
     #afternoon_tea_foreground_text {
         width: 98%;
-        height: 550px;
     }
     .container {
         height: 110px;
@@ -2156,7 +2168,7 @@ float: left;
         font-size: 150%;
     }
     .border_recipes {
-        width:70%;
+        width:90%;
         float: none;
         margin: 0 auto;
     }
@@ -2166,7 +2178,7 @@ float: left;
         background-color: #F2EDD7;
     }
     #background_footer {
-        height: 200px;
+        height: 150px;
     }
 }
 
